@@ -1,0 +1,173 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:220px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#tab {
+	position:absolute;
+	background-image:url('../images/table.png');
+	width:856px;
+	height:60px;
+	top:100px;
+	left:84px;
+	display:block;
+	opacity:1;
+}
+
+#tab div#tab1,
+#tab div#tab2,
+#tab div#tab3,
+#tab div#tab4,
+#tab div#tab5 {
+	position:absolute;
+	width:154px;
+	height:60px;
+}
+
+#tab div#tab1 {
+	width:140px;
+	height:40px;
+	top:20px
+}
+
+#tab div#tab2 {
+	left:148px;
+}
+
+#tab div#tab3 {
+	left:302px;
+}
+
+#tab.table2 {
+	background-position:0px 0px;
+}
+
+#tab.table3 {
+	background-position:0px -70px;
+}
+
+div#box div#content1 {
+	position:absolute;
+	background-image:url('../images/content.png');
+	width:856px;
+	height:468px;
+	top:160px;
+	left:84px;
+	display:block;
+	opacity:1;
+}
+
+div#box div#content1 div#bars div#grey
+{
+	position:absolute;
+	background-image:url('../images/grey.png');
+	width:114px;
+	height:0px;
+	bottom:146px;
+	left:262px;
+	opacity:1;
+}
+
+div#box div#content1 div#bars div#red
+{
+	position:absolute;
+	background-image:url('../images/red.png');
+	width:104px;
+	height:0px;
+	bottom:146px;
+	left:560px;
+	opacity:1;
+}
+
+div#box div#content1 div#arrow {
+	position:absolute;
+	background-image:url('../images/arrow.png');
+	width:200px;
+	height:83px;
+	top:112px;
+	left:360px;
+	opacity:0;
+}
+
+div#box div#content1 div#arrow div#number {
+	position:absolute;
+	background-image:url('../images/number.png');
+	width:43px;
+	height:56px;
+	top:8px;
+	left:75px;
+	opacity:0;
+}
+
+div#box div#content1 div#button {
+	position:absolute;
+	background-image:url('../images/button.png');
+	width:215px;
+	height:67px;
+	top:395px;
+	left:320px;
+	display:block;
+	opacity:1;
+}
+
+div#box div#content2 {
+	position:absolute;
+	background-image:url('../images/content2.png');
+	width:856px;
+	height:468px;
+	top:160px;
+	left:84px;
+	display:none;
+	opacity:1;
+}
+
+div#box div#content2 div {
+	position:absolute;
+	width:365px;
+	height:400px;
+	top:30px;
+	left:50px;
+}
+
+div#box div#content2 div#graph2 {
+	left:440px;
+}

@@ -1,0 +1,197 @@
+
+body {
+	margin:0;
+	padding:0;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#line {
+	position:absolute;
+	background-image:url('../images/line.png');
+	width:822px;
+	height:93px;
+	top:150px;
+	left:101px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 1500ms;
+}
+
+#doctor {
+	position:absolute;
+	background-image:url('../images/doctor.png');
+	width:359px;
+	height:441px;
+	top:250px;
+	left:200px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 1000ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 500ms;
+}
+
+#patient {
+	position:absolute;
+	background-image:url('../images/patient.png');
+	width:260px;
+	height:448px;
+	top:290px;
+	left:600px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 1000ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 500ms;
+}
+
+div#button1
+{
+	position:absolute;
+	background-image:url('../images/button1.png');
+	width:109px;
+	height:110px;
+	top:190px;
+	left:48px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 1500ms;
+}
+
+#button2
+{
+	position:absolute;
+	background-image:url('../images/button5.png');
+	width:107px;
+	height:106px;
+	top:135px;
+	left:180px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 1800ms;
+}
+
+#button3
+{
+	position:absolute;
+	background-image:url('../images/button6.png');
+	width:106px;
+	height:106px;
+	top:110px;
+	left:320px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 2100ms;
+}
+
+#button4
+{
+	position:absolute;
+	background-image:url('../images/button2.png');
+	width:107px;
+	height:107px;
+	top:100px;
+	left:460px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 2400ms;
+}
+
+#button5
+{
+	position:absolute;
+	background-image:url('../images/button3.png');
+	width:107px;
+	height:107px;
+	top:110px;
+	left:600px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 2700ms;
+}
+
+#button6
+{
+	position:absolute;
+	background-image:url('../images/button7.png');
+	width:106px;
+	height:106px;
+	top:135px;
+	left:740px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 3000ms;
+}
+
+#button7
+{
+	position:absolute;
+	background-image:url('../images/button4.png');
+	width:105px;
+	height:105px;
+	top:192px;
+	left:870px;
+	opacity:0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: 500ms;
+    -webkit-timing-function: ease-in;
+	-webkit-transition-delay: 3300ms;
+}
+
+#line.show,
+#doctor.show,
+#patient.show,
+#button1.show,
+#button2.show,
+#button3.show,
+#button4.show,
+#button5.show,
+#button6.show,
+#button7.show {
+	opacity:1;
+}
+
+.hidden {
+	opacity:0;
+}

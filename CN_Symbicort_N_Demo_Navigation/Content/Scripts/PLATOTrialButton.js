@@ -1,0 +1,1 @@
+SystemBridge.launchPDFViewer('package://US_EN_Brilinta_D_PDF/NEJM Article.pdf','New England Journal of Medicine', null);

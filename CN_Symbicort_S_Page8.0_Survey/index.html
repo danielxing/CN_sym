@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/customInput.jquery.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+	        $('input').customInput();
+	        var chkboxes = document.getElementsByName("purpose");
+	      
+	        var max=2;
+          $("input[name='purpose']").click(function(){
+	        	var count=0;
+	        	for (var i = 0; i < chkboxes.length; i++) {
+					if (chkboxes[i].checked) {
+						count++;
+					}
+				}
+	        	var btn=this;
+	        	setTimeout(function(){
+					if(count>max)
+					{
+						btn.checked=false;
+						//console.log(btn);
+						$(btn.parentNode).find("label")[0].className="";
+					}
+	        	},30);
+	        });
+          
+          
+	        
+	        
+			//var vals = [];
+			
+	    });
+	
+		function submitValues(form) {
+
+			// process question 1 (purpose - checkboxes)
+			var chkboxes = document.getElementsByName("purpose")
+			var vals = [];
+			for (var i = 0; i < chkboxes.length; i++) {
+				if (chkboxes[i].checked) {
+					vals.push(chkboxes[i].value);
+				}
+			}
+			SystemBridge.submitSurveyResponse(form.name, "purpose", vals.join(','));
+            
+//            alert(form.name+"  purpose  "+vals.join(','));
+
+			// clear the form
+			form.reset();
+		}
+	</script>
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar">
+			<div id="title"></div>
+		</div>
+	
+			<div id="box">
+				<div id="innerBox">
+					<form name="sampleForm">
+						<fieldset>
+							<div>
+								<input type="checkbox" name="purpose" value="specific" id="check-1">
+								<label for="check-1" class=""></label>
+							</div>
+							<div>	
+								<input type="checkbox" name="purpose" value="general" id="check-2">
+								<label for="check-2" class=""></label>
+							</div>
+							<div>
+								<input type="checkbox" name="purpose" value="browsing" id="check-3">
+								<label for="check-3" class=""></label>
+							</div>
+							<div>
+								<input type="checkbox" name="purpose" value="purchase" id="check-4">
+								<label for="check-4" class=""></label>
+							</div>
+							<div>
+								<input type="checkbox" name="purpose" value="browsing" id="check-5">
+								<label for="check-5" class=""></label>
+							</div>
+							<div>
+								<input type="checkbox" name="purpose" value="purchase" id="check-6">
+								<label for="check-6" class=""></label>
+							</div>
+						</fieldset>
+
+						<input type="Button" class="submit" ontouchstart="submitValues(this.form);SystemBridge.goToSlide('Page8.0 Survey Results');" />
+					</form>
+				</div>
+			</div>
+			
+		
+		<div id="bottomBar"></div>
+		
+		<img id="label" src="package://CN_Symbicort_D_Label/label.png"/>
+	</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+	<script type="text/javascript" src="./js/DOMAttribute.js"></script>
+	<script type="text/javascript" src="./js/webitCSSAnimate.js"></script>
+        <script type="text/javascript" src="resource:js/noClickDelay.js"></script>
+	
+	<script type="text/javascript">
+	function initial(){
+		lostFocus();
+		setTimeout(function(){
+			document.getElementById('grey').animate({"width":[175+"px","ease-in",1000]},500,function(){
+				document.getElementById('red').animate({"width":[177+"px","ease-in",1000]},500,function(){});
+			});
+		},200);
+	}
+	
+	document.addEventListener('DOMContentLoaded',initial,false);
+	
+	function lostFocus(){
+		document.getElementById('grey').style.width="0px";
+		document.getElementById('red').style.width="0px";
+	}
+	
+	</script>
+	
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar">
+			<div id="title"></div>
+		</div>
+		
+		<div id="box">
+			<div id="grey"></div>
+			<div id="red"></div>
+			<div id="popClose" ontouchstart="SystemBridge.closeTopPopUp();"></div>
+		</div>
+		<div id="bottomBar"></div>
+		
+		<img id="label" src="package://CN_Symbicort_D_Label/label.png"/>
+	</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal_2_1_2.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+         <script type="text/javascript" src="resource:js/noClickDelay.js"></script>
+	
+	<script type="text/javascript">
+		
+	</script>
+	
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar">
+			<div id="title"></div>
+		</div>
+		<div id="box">
+			<div id="text"></div>
+            <div id="back" ontouchstart="SystemBridge.closeTopPopUp();"></div>
+			<div id="button1" ontouchstart="SystemBridge.launchPopUp('2.1.3.html');"></div>
+			<div id="button2" ontouchstart="SystemBridge.closeTopPopUp();SystemBridge.goToSlide('Page6.1');"></div>
+			<div id="button3" ontouchstart="SystemBridge.closeTopPopUp();SystemBridge.goToSlide('Page7.1');"></div>
+		</div>
+		<div id="bottomBar"></div>
+		<img id="label" src="package://CN_Symbicort_D_Label/label.png"/>
+	</div>
+</body>
+</html>

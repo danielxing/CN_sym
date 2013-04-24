@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+	<script type="text/javascript" src="./js/DOMAttribute.js"></script>
+	<script type="text/javascript" src="./js/webitCSSAnimate.js"></script>
+        <script type="text/javascript" src="resource:js/noClickDelay.js"></script>
+	
+	<script type="text/javascript">
+	function initial(){
+		lostFocus();
+		setTimeout(function(){
+			
+			document.getElementById('grey').animate({"height":[43 + "px","ease-out",500]},100,function(){
+				document.getElementById('number1').animate({"opacity":[1,"ease-out",50]},100);
+			});
+			document.getElementById('grey2').animate({"height":[171 + "px","ease-out",1000]},100,function(){
+				document.getElementById('number3').animate({"opacity":[1,"ease-out",50]},100,function(){
+					document.getElementById('red1').animate({"height":[65 + "px","ease-out",500]},200);
+					document.getElementById('red2').animate({"height":[65 + "px","ease-out",500]},200,function(){
+						document.getElementById('number2').animate({"opacity":[1,"ease-out",50]},100);
+						document.getElementById('number4').animate({"opacity":[1,"ease-out",50]},100,function(){
+							document.getElementById('text').animate({"opacity":[1,"ease-out",400]},100);
+						});
+					});
+				});
+			});
+
+		},200);
+	}
+	
+	document.addEventListener('DOMContentLoaded',initial,false);
+	
+	function lostFocus(){
+		document.getElementById('grey').css({"height":"0px"});
+		document.getElementById('grey2').css({"height":"0px"});
+		document.getElementById('red1').css({"height":"0px"});
+		document.getElementById('red2').css({"height":"0px"});
+		document.getElementById('number1').css({"opacity":0});
+		document.getElementById('number3').css({"opacity":0});
+		document.getElementById('number2').css({"opacity":0});
+		document.getElementById('number4').css({"opacity":0});
+		document.getElementById('text').css({"opacity":0});
+	}
+		
+	</script>
+	
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar">
+			<div id="title"></div>
+		</div>
+		
+		<div id="box">
+			<div id=bar1>
+				<div id="grey">
+					<div id="number1"></div>
+				</div>
+				<div id="red1">
+					<div id="number2"></div>
+				</div>
+			</div>
+			<div id=bar2>
+				<div id="grey2">
+					<div id="number3"></div>
+				</div>
+				<div id="red2">
+					<div id="number4"></div>
+				</div>
+			</div>
+			
+			<div id="text"></div>
+			<div id="popClose" ontouchstart="SystemBridge.closeTopPopUp();"></div>
+		</div>
+		<div id="bottomBar"></div>
+		<img id="label" src="package://CN_Symbicort_D_Label/label.png"/>
+	</div>
+</body>
+</html>

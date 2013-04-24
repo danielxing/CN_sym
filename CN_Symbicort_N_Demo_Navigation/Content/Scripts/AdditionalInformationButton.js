@@ -1,0 +1,1 @@
+SystemBridge.goToSlide('Additional Information');

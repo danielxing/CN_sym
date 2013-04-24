@@ -1,0 +1,71 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title_2_1_3.png');
+	width:208px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+
+#choice1 {
+	position:absolute;
+	background-image:url('../images/button1_2_1_3.png');
+	width:291px;
+	height:111px;
+	top:320px;
+	left:160px;
+}
+
+#choice2 {
+	position:absolute;
+	background-image:url('../images/button2_2_1_3.png');
+	width:291px;
+	height:111px;
+	top:320px;
+	left:575px;
+}
+
+#back {
+   position:absolute;
+	background-image:url('../images/back.png');
+	width:81px;
+	height:37px;
+	top:14px;
+	left:906px; 
+}

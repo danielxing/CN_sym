@@ -1,0 +1,143 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:220px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#box {
+	position:absolute;
+	background-image:url('../images/content.png');
+	width:739px;
+	height:407px;
+	top:180px;
+	left:142px;
+}
+
+div#popClose {
+	position:absolute;
+	background-image:url('../images/close.png');
+	width:73px;
+	height:74px;
+	top:-36px;
+	left:702px;
+}
+
+div#bar1, div#bar2 {
+	position:absolute;
+	width:160px;
+	height:220px;
+	left:233px;
+	top:113px;
+}
+
+div#bar2 {
+	left:393px;
+}
+
+#red1,#red2 {
+	position:absolute;
+	background-image:url('../images/red.png');
+	width:61px;
+	height:0px;
+	bottom:-2px;
+	left:32px;
+	opacity:1;
+}
+
+#grey {
+	position:absolute;
+	background-image:url('../images/grey.png');
+	width:58px;
+	height:0px;
+	bottom:-2px;
+	left:83px;
+	opacity:1;
+}
+
+#grey2 {
+	position:absolute;
+	background-image:url('../images/grey2.png');
+	width:57px;
+	height:0px;
+	bottom:-2px;
+	left:82px;
+	opacity:1;
+}
+
+#text{
+	position:absolute;
+	background-image:url('../images/text.png');
+	width:295px;
+	height:11px;
+	top:220px;
+	left:265px;
+	opacity:0;
+}
+
+div#number2,div#number4 {
+	position:absolute;
+	background-image:url('../images/number1.png');
+	width:31px;
+	height:12px;
+	top:-15px;
+	left:10px;
+	opacity:0;
+}
+
+div#number1 {
+	position:absolute;
+	background-image:url('../images/number2.png');
+	width:30px;
+	height:12px;
+	top:-15px;
+	left:10px;
+	opacity:0;
+}
+
+div#number3 {
+	position:absolute;
+	background-image:url('../images/number4.png');
+	width:31px;
+	height:12px;
+	top:-18px;
+	left:10px;
+	opacity:0;
+}

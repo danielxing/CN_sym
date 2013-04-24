@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ExitOnDoubleTap</key>
+	<false/>
+	<key>ScreenLockEnabled</key>
+	<true/>
+	<key>DrawingEnabled</key>
+	<true/>
+	<key>Supported Orientations</key>
+	<dict>
+		<key>Landscape Left</key>
+		<true/>
+		<key>Landscape Right</key>
+		<true/>
+		<key>Portrait</key>
+		<false/>
+		<key>Portrait Upside Down</key>
+		<false/>
+	</dict>
+	<key>Menu</key>
+	<dict>
+		<key>AssetID</key>
+		<string>CN_Symbicort_N_Demo_Menu</string>
+	</dict>
+	<key>ActiveCall</key>
+	<array>
+		<string>Page0</string>
+		<string>Page1::Page1.1</string>
+		<string>Page2::Page2.1</string>
+		<string>Page3::Page3.1</string>
+		<string>Page4::Page4.1</string>
+		<string>Page5::Page5.1</string>
+		<string>Page6.1</string>
+		<string>Page7.1</string>
+		<string>Page8.0 Survey</string>
+	</array>
+	<key>Slides</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Page0</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_CN_Page0</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page1</string>
+			<key>Subcontent</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Page1.1</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page1.1</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page1.2</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page1.2</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page1.3</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page1.3</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page1.4</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page1.4</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page1.2 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page1.2_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page1.3 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page1.3_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page1.4 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page1.4_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page2</string>
+			<key>Subcontent</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Page2.1</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page2.1</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page2.2</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page2.2</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page2.3</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page2.3</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page2.2 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page2.2_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page2.3 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page2.3_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page2.3 ExperimentDesign</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page2.3_ExperimentDesign</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page3</string>
+			<key>Subcontent</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Page3.1</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page3.1</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page3.2</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page3.2</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page3.1 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page3.1_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page3.2 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page3.2_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4</string>
+			<key>Subcontent</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Page4.1</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page4.1</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page4.2 Table1</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page4.2_Table1</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page4.3 Table2</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page4.3_Table2</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4.1 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page4.1_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4.2.1 ExperimentDesign</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page4.2.1_ExperimentDesign</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4.2.2.1</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page4.2.2.1</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4.2.2.2</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page4.2.2.2</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4.2.4 AQLQs</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page4.2.4_AQLQs</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4.3.1 ExperimentDesign</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page4.3.1_ExperimentDesign</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4.3.2.1</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page4.3.2.1</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page4.3.2.2</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page4.3.2.2</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page5.1</string>
+			<key>Subcontent</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Page5.1</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page5.1</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Page5.2 Table3</string>
+					<key>AssetID</key>
+					<string>CN_Symbicort_S_Page5.2_Table3</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page5.1 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page5.1_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page5.1 VideoPopUp1</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp1</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page5.1 VideoPopUp2</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp2</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page5.1 VideoPopUp3</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp3</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page6.1</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page6.1</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page6.1 PopUp</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page6.1_PopUp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page7.1</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page7.1</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page8.0 Survey</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page8.0_Survey</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Page8.0 Survey Results</string>
+			<key>AssetID</key>
+			<string>CN_Symbicort_S_Page8.0_SurveyResult</string>
+		</dict>
+	</array>
+</dict>
+</plist>

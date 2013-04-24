@@ -1,0 +1,207 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:119px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#box {
+	position:absolute;
+	background-image:url('../images/content.png');
+	width:855px;
+	height:518px;
+	top:115px;
+	left:84px;
+}
+
+div#bars {
+	position:absolute;
+	width:425px;
+	height:260px;
+	top:150px;
+	left:185px;
+}
+
+div#bars div {
+	position:absolute;
+	width:100px;
+	height:260px;
+	left:0px;
+}
+
+div#bars div#bar2{
+	left:108px;
+}
+
+div#bars div#bar3{
+	left:216px;
+}
+
+div#bars div#bar4{
+	left:325px;
+}
+
+div#bars div div div.number {
+	font-family:Arial;
+	font-size:13px;
+	opacity:0;
+	width:30px;
+	height:20px;
+}
+
+div#bars div#bar1 div#yellow {
+	position:absolute;
+	background-image:url('../images/yellow1.png');
+	width:44px;
+	height:0px;
+	top:64px;
+	left:5px;
+}
+
+div#bars div#bar1 div#yellow div#number1 {
+	position:absolute;
+	top:155px;
+	left:12px;
+}
+
+div#bars div#bar2 div#yellow2 {
+	position:absolute;
+	background-image:url('../images/yellow2.png');
+	width:48px;
+	height:0px;
+	bottom:198px;
+	left:-5px;
+}
+
+div#bars div#bar2 div#yellow2 div#number3 {
+	position:absolute;
+	top:-10px;
+	left:15px;
+}
+
+div#bars div#bar3 div#yellow3 {
+	position:absolute;
+	background-image:url('../images/yellow3.png');
+	width:44px;
+	height:0px;
+	bottom:198px;
+	left:0px;
+}
+
+div#bars div#bar3 div#yellow3 div#number5 {
+	position:absolute;
+	top:-10px;
+	left:16px;
+}
+
+div#bars div#bar4 div#yellow4 {
+	position:absolute;
+	background-image:url('../images/yellow4.png');
+	width:46px;
+	height:0px;
+	top:63px;
+	left:-5px;
+}
+
+div#bars div#bar4 div#yellow4 div#number7 {
+	position:absolute;
+	top:92px;
+	left:13px;
+}
+
+div#bars div#bar1 div#red {
+	position:absolute;
+	background-image:url('../images/red1.png');
+	width:48px;
+	height:0px;
+	top:63px;
+	left:45px;
+}
+
+div#bars div#bar1 div#red div#number2 {
+	position:absolute;
+	top:192px;
+	left:9px;
+}
+
+div#bars div#bar2 div#red2 {
+	position:absolute;
+	background-image:url('../images/red2.png');
+	width:41px;
+	height:0px;
+	top:62px;
+	left:42px;
+}
+
+div#bars div#bar2 div#red2 div#number4 {
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+div#bars div#bar3 div#red3 {
+	position:absolute;
+	background-image:url('../images/red3.png');
+	width:45px;
+	height:0px;
+	top:63px;
+	left:43px;
+}
+
+div#bars div#bar3 div#red3 div#number6 {
+	position:absolute;
+	top:28px;
+	left:10px;
+}
+
+div#bars div#bar4 div#red4 {
+	position:absolute;
+	background-image:url('../images/red4.png');
+	width:48px;
+	height:0px;
+	top:62px;
+	left:37px;
+}
+
+div#bars div#bar4 div#red4 div#number8 {
+	position:absolute;
+	top:120px;
+	left:10px;
+}

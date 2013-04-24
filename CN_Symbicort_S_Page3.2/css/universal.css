@@ -1,0 +1,81 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:131px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#box {
+	position:absolute;
+	background-image:url('../images/content.png');
+	width:855px;
+	height:518px;
+	top:115px;
+	left:84px;
+}
+
+#lines {
+	position:absolute;
+	background-image:url('../images/lines.png');
+	width:0px;
+	height:67px;
+	top:199px;
+	left:206px;
+}
+
+div#verticalline {
+	position:absolute;
+	background-image:url('../images/verticalline.png');
+	width:3px;
+	height:248px;
+	top:180px;
+	left:243px;
+	opacity:0;
+}
+
+#timesheet {
+	position:absolute;
+	background-image:url('../images/timesheet.png');
+	width:514px;
+	height:31px;
+	top:422px;
+	left:204px;
+	opacity:0;
+}

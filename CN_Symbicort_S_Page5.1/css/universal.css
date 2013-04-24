@@ -1,0 +1,133 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:119px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+div#text {
+	position:absolute;
+	background-image:url('../images/text.png');
+	width:416px;
+	height:23px;
+	top:140px;
+	left:304px;
+}
+
+div#box1 {
+	position:absolute;
+	background-image:url('../images/box1.png');
+	width:315px;
+	height:395px;
+	top:200px;
+	left:85px;
+}
+
+div#box1 div#innerBox {
+	position:absolute;
+	width:290px;
+	height:230px;
+	left:10px;
+	top:120px;
+}
+
+div#box2 {
+	position:absolute;
+	top:200px;
+	left:400px;
+}
+
+div#box2 div#bottle {
+	position:absolute;
+	background-image:url('../images/bottle.png');
+	width:160px;
+	height:240px;
+	left:27px;
+}
+
+div#box2 div#innerBox {
+	position:absolute;
+	background-image:url('../images/box2.png');
+	width:205px;
+	height:168px;
+	left:5px;
+	top:237px;
+}
+
+div#box3 {
+	position:absolute;
+	background-image:url('../images/box3.png');
+	width:323px;
+	height:397px;
+	top:200px;
+	left:615px;
+}
+
+div#box3 div#button1 {
+	position:absolute;
+	width:202px;
+	height:48px;
+	left:70px;
+	top:90px;
+}
+
+div#box3 div#button2 {
+	position:absolute;
+	width:202px;
+	height:48px;
+	left:70px;
+	top:138px;
+}
+
+div#box3 div#button3 {
+	position:absolute;
+	width:202px;
+	height:48px;
+	left:70px;
+	top:186px;
+}
+
+div#box3 div#innerBox {
+	position:absolute;
+	width:192px;
+	height:152px;
+	left:75px;
+	top:235px;
+}

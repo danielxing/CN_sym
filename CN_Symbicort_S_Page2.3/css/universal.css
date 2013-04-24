@@ -1,0 +1,154 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:180px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#box {
+	position:absolute;
+	background-image:url('../images/content.png');
+	width:855px;
+	height:518px;
+	top:115px;
+	left:84px;
+}
+
+div#bars {
+	position:absolute;
+	width:600px;
+	height:250px;
+	top:110px;
+	left:195px;
+}
+
+div#redbar {
+	position:absolute;
+	background-image:url('../images/redbar.png');
+	width:114px;
+	height:0px;
+	bottom:2px;
+	left:56px;
+}
+
+div#greybar {
+	position:absolute;
+	background-image:url('../images/greybar.png');
+	width:105px;
+	height:0px;
+	bottom:2px;
+	left:354px;
+}
+
+div#redarrow {
+	position:absolute;
+	background-image:url('../images/redarrow.png');
+	width:120px;
+	height:0px;
+	top:160px;
+	left:200px;
+}
+
+
+div#redarrow div#label3 {
+	position:absolute;
+	background-image:url('../images/number4.png');
+	width:40px;
+	height:11px;
+	top:70px;
+	left:35px;
+	opacity:0;
+}
+
+div#redarrow div#number3 {
+	position:absolute;
+	background-image:url('../images/number5.png');
+	width:49px;
+	height:15px;
+	top:30px;
+	left:38px;
+	opacity:0;
+}
+
+div#redbar div#label1,
+div#greybar div#label2 {
+	position:absolute;
+	background-image:url('../images/number3.png');
+	width:37px;
+	height:10px;
+	top:165px;
+	left:35px;
+	opacity:0;
+}
+
+div#greybar div#label2 {
+	top:102px;
+	left:28px;
+}
+
+div#redbar div#number1 {
+	position:absolute;
+	background-image:url('../images/number1.png');
+	width:40px;
+	height:10px;
+	top:-8px;
+	left:35px;
+	opacity:0;
+}
+
+div#greybar div#number2 {
+	position:absolute;
+	background-image:url('../images/number2.png');
+	width:40px;
+	height:10px;
+	top:-4px;
+	left:25px;
+	opacity:0;
+}
+
+div#experimentDesign
+{
+	position:absolute;
+	background-image:url('../images/button.png');
+	width:214px;
+	height:65px;
+	top:435px;
+	left:320px;
+}

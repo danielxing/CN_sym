@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>navLayerBundle</key>
+	<string>CN_Symbicort_N_Demo_Navigation.bundle</string>
+	<key>SlideTitleColor</key>
+	<string>#DE0D1E</string>
+	<key>BreadcrumbMainColor</key>
+	<string>#4990C5</string>
+	<key>BreadcrumbSubColor</key>
+	<string>#4990C5</string>
+	<key>BreadcrumbSelectedColor</key>
+	<string>#DE0D1E</string>
+	<key>showBreadcrumbLine</key>
+	<true/>
+	<key>BreadcrumbLineColor</key>
+	<string>#4990C5</string>
+	<key>ThumbnailMapBackgroundColor</key>
+	<string>#E5D7ED</string>
+	<key>ThumbnailMapMode</key>
+	<string>strip</string>
+</dict>
+</plist>

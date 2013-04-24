@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+	<script type="text/javascript" src="resource:js/noClickDelay.js"></script>
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar"></div>
+		
+		<div id="line" class="hidden"></div>
+		
+		<div id="button1" class="hidden" ontouchstart="SystemBridge.goToSlide('Page1::Page1.1');"></div>
+		<div id="button2" class="hidden" ontouchstart="SystemBridge.goToSlide('Page2::Page2.1');"></div>
+		<div id="button3" class="hidden" ontouchstart="SystemBridge.goToSlide('Page3::Page3.1');"></div>
+		<div id="button4" class="hidden" ontouchstart="SystemBridge.goToSlide('Page4::Page4.1');"></div>
+		<div id="button5" class="hidden" ontouchstart="SystemBridge.goToSlide('Page5::Page5.1');"></div>
+		<div id="button6" class="hidden" ontouchstart="SystemBridge.goToSlide('Page6.1');"></div>
+		<div id="button7" class="hidden" ontouchstart="SystemBridge.goToSlide('Page7.1');"></div>
+		
+		<div id="doctor" class="hidden" ontouchstart="SystemBridge.goToSlide('Page2::Page2.1');"></div>
+		<div id="patient" class="hidden" ontouchstart="SystemBridge.goToSlide('Page1::Page1.1');"></div>
+		
+		<div id="bottomBar"></div>
+		<img id="label" src="package://CN_Symbicort_D_Label/label.png"/>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+	
+    function gotFocus() {
+		document.getElementById('doctor').className="show";
+		document.getElementById('patient').className="show";
+		document.getElementById('line').className="show";
+		document.getElementById('button1').className="show";
+		document.getElementById('button2').className="show";
+		document.getElementById('button3').className="show";
+		document.getElementById('button4').className="show";
+		document.getElementById('button5').className="show";
+		document.getElementById('button6').className="show";
+		document.getElementById('button7').className="show";
+	}
+	
+	function lostFocus() {
+		document.getElementById('doctor').className="hidden";
+		document.getElementById('patient').className="hidden";
+		document.getElementById('line').className="hidden";
+		document.getElementById('button1').className="hidden";
+		document.getElementById('button2').className="hidden";
+		document.getElementById('button3').className="hidden";
+		document.getElementById('button4').className="hidden";
+		document.getElementById('button5').className="hidden";
+		document.getElementById('button6').className="hidden";
+		document.getElementById('button7').className="hidden";
+	}
+		
+	</script>
+</body>
+</html>

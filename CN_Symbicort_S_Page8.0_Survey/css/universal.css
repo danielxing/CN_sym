@@ -1,0 +1,119 @@
+
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+div#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+div#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:70px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+div#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+div#box {
+	position:absolute;
+	background-image:url('../images/content.png');
+	width:703px;
+	height:400px;
+	top:130px;
+	left:160px;
+}
+
+div#innerBox {
+	position:absolute;
+	top:112px;
+}
+
+form { 
+	padding:0px; 
+}
+
+input.submit {
+	position:absolute;
+	background-image:url('../images/submit.png');
+	width:204px;
+	height:83px;
+	top:320px;
+	left:250px;
+	border:0px;
+	color:transparent;
+	background-color:transparent;
+}
+
+
+ /* page styles */
+            fieldset {
+                border: 0;
+            }
+            
+            fieldset div {
+            	height:50px;
+            }
+            /* wrapper divs */
+            .custom-checkbox { 
+                position: relative; 
+            }
+            /* input, label positioning */
+            .custom-checkbox input {
+                position: absolute;
+                left: 2px;
+                top: 3px;
+                margin: 0;
+                z-index: 0;
+                width:25px;
+                height:35px;
+            }
+            .custom-checkbox label {
+                display: block;
+                position: relative;
+                z-index: 1;
+                line-height: 1;
+                cursor: pointer;
+                margin-top:0px;
+            }
+            /* states */
+            .custom-checkbox label { 
+                background: url('../images/checkbox.png') no-repeat; 
+                height:35px;
+                width:33px;
+            }
+            
+            .custom-checkbox label {
+                background-position: 0px 0px;
+            }
+
+            .custom-checkbox label.checked {
+                background-position: 0px -65px;
+            }

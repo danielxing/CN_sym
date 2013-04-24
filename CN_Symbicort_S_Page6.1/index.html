@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+	<script type="text/javascript" src="./js/DOMAttribute.js"></script>
+	<script type="text/javascript" src="./js/webitCSSAnimate.js"></script>
+	
+	<script type="text/javascript">
+	
+	function gotFocus(){
+		document.getElementById('yellow').animate({"height":[188 + "px","ease-out",1000]},100,function(){
+			document.getElementById('number1').animate({"opacity":[1,"ease-out",50]},100);
+		});
+		document.getElementById('yellow2').animate({"height":[44 + "px","ease-out",500]},100,function(){
+			document.getElementById('number3').animate({"opacity":[1,"ease-out",50]},100);
+		});
+		document.getElementById('yellow3').animate({"height":[15 + "px","ease-out",300]},100,function(){
+			document.getElementById('number5').animate({"opacity":[1,"ease-out",50]},100);
+		});
+		document.getElementById('yellow4').animate({"height":[114 + "px","ease-out",800]},100,function(){
+			document.getElementById('number7').animate({"opacity":[1,"ease-out",50]},100);
+		});
+		
+		document.getElementById('red').animate({"height":[196 + "px","ease-out",1000]},1500,function(){
+			document.getElementById('number2').animate({"opacity":[1,"ease-out",50]},100);
+		});
+		document.getElementById('red2').animate({"height":[17 + "px","ease-out",300]},1500,function(){
+			document.getElementById('number4').animate({"opacity":[1,"ease-out",50]},100);
+		});
+		document.getElementById('red3').animate({"height":[35 + "px","ease-out",500]},1500,function(){
+			document.getElementById('number6').animate({"opacity":[1,"ease-out",50]},100);
+		});
+		document.getElementById('red4').animate({"height":[128 + "px","ease-out",800]},1500,function(){
+			document.getElementById('number8').animate({"opacity":[1,"ease-out",50]},100);
+		});
+	}
+	
+	function lostFocus(){
+		document.getElementById('yellow').css({"height":"0px"});
+		document.getElementById('yellow2').css({"height":"0px"});
+		document.getElementById('yellow3').css({"height":"0px"});
+		document.getElementById('yellow4').css({"height":"0px"});
+		document.getElementById('red').css({"height":"0px"});
+		document.getElementById('red2').css({"height":"0px"});
+		document.getElementById('red3').css({"height":"0px"});
+		document.getElementById('red4').css({"height":"0px"});
+		document.getElementById('number1').css({"opacity":0});
+		document.getElementById('number2').css({"opacity":0});
+		document.getElementById('number3').css({"opacity":0});
+		document.getElementById('number4').css({"opacity":0});
+		document.getElementById('number5').css({"opacity":0});
+		document.getElementById('number6').css({"opacity":0});
+		document.getElementById('number7').css({"opacity":0});
+		document.getElementById('number8').css({"opacity":0});
+	}
+		
+	</script>
+	
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar">
+			<div id="title"></div>
+		</div>
+		<div id="box">
+			<div id=bars>
+				<div id="bar1">
+					<div id="yellow" class="yellow">
+						<div id="number1" class="number">-92</div>
+					</div>
+					<div id="red" class="red">
+						<div id="number2" class="number">-118</div>
+					</div>
+				</div>
+				<div id="bar2">
+					<div id="yellow2">
+						<div id="number3" class="number">21</div>
+					</div>
+					<div id="red2">
+						<div id="number4" class="number">-1</div>
+					</div>
+				</div>
+				<div id="bar3">
+					<div id="yellow3">
+						<div id="number5" class="number">8</div>
+					</div>
+					<div id="red3">
+						<div id="number6" class="number">-15</div>
+					</div>
+				</div>
+				<div id="bar4">
+					<div id="yellow4">
+						<div id="number7" class="number">-50</div>
+					</div>
+					<div id="red4">
+						<div id="number8" class="number">-73</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<div id="bottomBar"></div>
+		<img id="label" src="package://CN_Symbicort_D_Label/label.png"/>
+	</div>
+</body>
+</html>

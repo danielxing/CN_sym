@@ -1,0 +1,182 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+   
+}
+
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:220px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#bg {
+	position:absolute;
+    background-image:url('../images/bg.png');
+	width:855px;
+	height:518px;
+	top:115px;
+	left:84px;
+	display:block;
+	opacity:1;
+}
+
+#box.hidden {
+	opacity:0;
+	display:none;
+}
+
+#box2 {
+	position:absolute;
+	background-image:url('../images/content2.png');
+	width:855px;
+	height:518px;
+	top:115px;
+	left:84px;
+	opacity:0;
+	display:none;
+}
+
+#box2.show {
+	opacity:1;
+	display:block;
+}
+
+#button1 {
+	position:absolute;
+	width:150px;
+	height:60px;
+	top:320px;
+	left:50px;
+	display: none;
+}
+
+#button2 {
+	position:absolute;
+	width:150px;
+	height:60px;
+	top:320px;
+	left:220px;
+	
+	display: none;
+}
+
+#button3 {
+	position:absolute;
+	width:150px;
+	height:60px;
+	top:395px;
+	left:50px;
+	display: none;
+}
+
+#button4 {
+	position:absolute;
+	width:150px;
+	height:60px;
+	top:395px;
+	left:220px;
+	display: none;
+}
+
+#button5 {
+	position:absolute;
+	width:245px;
+	height:60px;
+	top:315px;
+	left:465px;
+	display: none;
+}
+
+#button6 {
+	position:absolute;
+	width:245px;
+	height:60px;
+	top:395px;
+	left:465px;
+	display: none;
+}
+
+#title1 {
+    background-image:url('../images/1t.png');
+    position:absolute;
+	width:855px;
+	height:100px;
+	top:0px;
+	left:0px;
+}
+
+#title2 {
+    background-image:url('../images/2t1.png');
+    position:absolute;
+	width:594px;
+	height:93px;
+	top:0px;
+	left:0px;
+	opacity: 0;
+}
+
+#title2icon {
+    background-image:url('../images/2t2.png');
+    position:absolute;
+	width:247px;
+	height:166px;
+	top:0px;
+	right:0px;
+	opacity: 0;
+}
+
+#pic1b {
+    background-image:url('../images/1b.png');
+    position:absolute;
+	width:855px;
+	height:208px;
+	left:0px;
+    bottom:0px;
+}
+
+#pic2b {
+    background-image:url('../images/2b.png');
+    position:absolute;
+	width:855px;
+	height:207px;
+	left:0px;
+    bottom:0px;
+    
+    opacity: 0;
+}
+
+

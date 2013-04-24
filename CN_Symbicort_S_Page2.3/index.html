@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+	<script type="text/javascript" src="./js/DOMAttribute.js"></script>
+	<script type="text/javascript" src="./js/webitCSSAnimate.js"></script>
+        <script type="text/javascript" src="resource:js/noClickDelay.js"></script>
+	
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar">
+			<div id="title"></div>
+		</div>
+		<div id="box">
+			<div id=bars>
+				<div id="redbar" >
+					<div id="label1" ></div>
+					<div id="number1"></div>
+				</div>
+				<div id="greybar">
+					<div id="label2"></div>
+					<div id="number2"></div>
+				</div>
+				<div id="redarrow">
+					<div id="label3"></div>
+					<div id="number3"></div>
+				</div>
+			</div>
+			
+			<div id="experimentDesign" ontouchstart="SystemBridge.goToSlide('Page2.3 ExperimentDesign');"></div>
+		</div>
+		<div id="bottomBar"></div>
+		
+		<img id="label" src="package://CN_Symbicort_D_Label/label.png"/>
+	</div>
+	
+	<script type="text/javascript">
+	
+	function gotFocus() {
+		reset();
+		setTimeout(function(){
+			document.getElementById('greybar').animate({"height":[135+"px","ease-out",1000]},0,function(){
+				document.getElementById('number2').show(500,200,function(){
+					document.getElementById('redbar').animate({"height":[202+"px","ease-out",1000]},0,function(){
+						document.getElementById('number1').show(500,200,function(){
+							document.getElementById('redarrow').animate({"height":[96+"px","ease-out",1000],"top":[65+"px","ease-out",1000]},100,function(){
+								document.getElementById('label3').show(500,0);
+								document.getElementById('number3').animate({"transform":[{ "scale":1.2},"ease-out",500],"opacity":[1,"ease-out",500]},500,function(d){
+									d.animate({"transform":[{ "scale":1},"ease-out",500]},0);
+								});
+							});
+						});
+					});
+					document.getElementById('label1').show(500,300);
+				});
+			});
+			document.getElementById('label2').show(500,300);
+		},200);
+	}
+
+	function lostFocus() {
+		document.getElementById('greybar').unanimate().css({"height":"0px"});		
+		document.getElementById('redbar').unanimate().css({"height":"0px"});
+		document.getElementById('redarrow').unanimate().css({"height":"0px","top":"160px"});
+		document.getElementById('greybar').$('div',function(m){	
+			m.unanimate().css({"opacity":0});	
+		});
+        document.getElementById('redbar').$('div',function(m){
+                                             m.unanimate().css({"opacity":0});
+                                             });
+        document.getElementById('redarrow').$('div',function(m){
+                                             m.unanimate().css({"opacity":0});
+                                             });
+		document.getElementById('number3').unanimate().css({"transform":""});	
+	}
+	
+	function reset() {
+		document.getElementById('greybar').unanimate().css({"height":"0px"});		
+		document.getElementById('redbar').unanimate().css({"height":"0px"});
+		document.getElementById('redarrow').unanimate().css({"height":"0px","top":"160px"});
+		document.getElementById('greybar').$('div',function(m){	
+			m.unanimate().css({"opacity":0});	
+		});
+        document.getElementById('redbar').$('div',function(m){
+                                             m.unanimate().css({"opacity":0});
+                                             });
+        document.getElementById('redarrow').$('div',function(m){
+                                             m.unanimate().css({"opacity":0});
+                                             });
+		document.getElementById('number3').unanimate().css({"transform":""});	
+	}
+		
+	</script>
+</body>
+</html>

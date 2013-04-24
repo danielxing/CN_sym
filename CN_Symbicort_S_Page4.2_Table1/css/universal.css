@@ -1,0 +1,280 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:220px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#tab {
+	position:absolute;
+	background-image:url('../images/table.png');
+	width:855px;
+	height:60px;
+	top:100px;
+	left:84px;
+	display:block;
+	opacity:1;
+}
+
+#tab div#tab1,
+#tab div#tab2,
+#tab div#tab3,
+#tab div#tab4,
+#tab div#tab5 {
+	position:absolute;
+	width:154px;
+	height:60px;
+}
+
+#tab div#tab1 {
+	width:140px;
+	height:40px;
+	top:20px
+}
+
+#tab div#tab2 {
+	left:148px;
+}
+
+#tab div#tab3 {
+	left:302px;
+}
+
+#tab div#tab4 {
+	left:456px;
+}
+
+div#tab5 {
+	left:610px;
+}
+
+#tab.table1 {
+	background-position:0px 0px;'
+}
+
+#tab.table2 {
+	background-position:0px -65px;'
+}
+
+#tab.table3 {
+	background-position:0px -130px;'
+}
+
+#tab.table4 {
+	background-position:0px -195px;'
+}
+
+div#box.ain div#content3 div#greyline 
+{
+	-webkit-transition-property: width;
+    -webkit-transition-duration: 1000ms;
+    -webkit-timing-function: ease-in;
+    -webkit-transition-delay: 400ms;
+	
+}
+
+div#box div#content1 {
+	position:absolute;
+	background-image:url('../images/content.png');
+	width:855px;
+	height:490px;
+	top:160px;
+	left:84px;
+	display:block;
+	opacity:1;
+}
+
+div#box div#content1 div#button {
+	position:absolute;
+	background-image:url('../images/button.png');
+	width:215px;
+	height:67px;
+	top:420px;
+	left:320px;
+	display:block;
+	opacity:1;
+}
+
+div#box div#content2 {
+	position:absolute;
+	background-image:url('../images/content2.png');
+	width:855px;
+	height:486px;
+	top:160px;
+	left:84px;
+	display:none;
+	opacity:1;
+}
+
+div#box div#content2 div {
+	position:absolute;
+	width:365px;
+	height:355px;
+	top:100px;
+	left:50px;
+}
+
+div#box div#content2 div#graph2 {
+	left:440px;
+}
+
+div#box div#content3 {
+	position:absolute;
+	background-image:url('../images/content3.png');
+	width:855px;
+	height:486px;
+	top:160px;
+	left:84px;
+	display:none;
+	opacity:1;
+}
+
+div#box div#content3 div#greyline {
+	position:absolute;
+	background-image:url('../images/greyline.png');
+	width:0px;
+	height:29px;
+	top:178px;
+	left:210px;
+	opacity:1;
+	
+}
+
+div#box div#content3 div#greyline.show {
+	width:369px;
+}
+
+div#box div#content3 div#redline {
+	position:absolute;
+	background-image:url('../images/redline.png');
+	width:0px;
+	height:39px;
+	top:158px;
+	left:210px;
+	opacity:1;
+}
+
+div#box div#content3 div#redline.show {
+	width:369px;
+}
+
+div#box div#content3 div#verticalline {
+	position:absolute;
+	background-image:url('../images/vertical.png');
+	width:5px;
+	height:211px;
+	top:148px;
+	left:260px;
+	opacity:1;
+}
+
+div#box div#content4 {
+	position:absolute;
+	background-image:url('../images/content4.png');
+	width:855px;
+	height:486px;
+	top:160px;
+	left:84px;
+	display:none;
+	opacity:1;
+}
+
+div#box div#content4 div#bars div#redbar
+{
+	position:absolute;
+	background-image:url('../images/barleft.png');
+	width:101px;
+	height:0px;
+	bottom:106px;
+	left:216px;
+	opacity:1;
+}
+
+div#box div#content4 div#bars div#number1
+{
+	position:absolute;
+	background-image:url('../images/number.png');
+	width:38px;
+	height:11px;
+	bottom:180px;
+	left:28px;
+	opacity:0;
+}
+
+div#box div#content4 div#bars div#redbar2
+{
+	position:absolute;
+	background-image:url('../images/barright.png');
+	width:101px;
+	height:0px;
+	bottom:106px;
+	left:416px;
+	opacity:1;
+}
+
+div#box div#content4 div#bars div#number2
+{
+	position:absolute;
+	background-image:url('../images/number2.png');
+	width:37px;
+	height:11px;
+	bottom:205px;
+	left:28px;
+	opacity:0;
+}
+
+div#box div#content4 div#horizontalline {
+	position:absolute;
+	background-image:url('../images/horizontalline.png');
+	width:454px;
+	height:3px;
+	top:216px;
+	left:155px;
+	opacity:0;
+}
+
+div#box div#content4 div#button2 {
+	position:absolute;
+	background-image:url('../images/button2.png');
+	width:113px;
+	height:83px;
+	top:210px;
+	left:705px;
+}
