@@ -270,7 +270,7 @@
 		18310E001714049B00AE3092 /* SYM Turbuhaler Adults.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18310DFF1714049B00AE3092 /* SYM Turbuhaler Adults.mp4 */; };
 		1893BCE717153EFE00251BC1 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 1893BCE617153EFE00251BC1 /* js */; };
 		1893BCE917153F9300251BC1 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 1893BCE817153F9300251BC1 /* js */; };
-		189BE9CB17280B9E0021CEC8 /* CN_Symbicort_N_Demo_Navigation.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */; };
+		189BE9CB17280B9E0021CEC8 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */; };
 		18F691C61712C43D00DF8F6B /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F691C51712C43D00DF8F6B /* config.plist */; };
 		18F691CD1712CCF300DF8F6B /* css in Resources */ = {isa = PBXBuildFile; fileRef = 18F691C71712CCF300DF8F6B /* css */; };
 		18F691CE1712CCF300DF8F6B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 18F691C81712CCF300DF8F6B /* images */; };
@@ -325,10 +325,105 @@
 		18FDF33717250A9600B6CB62 /* CN_Symbicort_S_Page8.0_Survey.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = 180E289617129EDB00730F7E /* CN_Symbicort_S_Page8.0_Survey.bundle */; };
 		18FDF33817250A9600B6CB62 /* CN_Symbicort_S_Page8.0_SurveyResult.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = 180E289D17129EF400730F7E /* CN_Symbicort_S_Page8.0_SurveyResult.bundle */; };
 		18FDF35D1725144B00B6CB62 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18FDF35C1725144B00B6CB62 /* config.plist */; };
-		18FDF3621725146B00B6CB62 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 18FDF35E1725146B00B6CB62 /* images */; };
-		18FDF3631725146B00B6CB62 /* PKNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FDF3601725146B00B6CB62 /* PKNavigationView.xib */; };
-		18FDF3641725146B00B6CB62 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 18FDF3611725146B00B6CB62 /* Scripts */; };
 		18FDF365172514E000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = 18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */; };
+		92AD67CD17283FA0005FD479 /* brilinta_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD676D17283FA0005FD479 /* brilinta_button.png */; };
+		92AD67CE17283FA0005FD479 /* brilinta_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD676E17283FA0005FD479 /* brilinta_button@2x.png */; };
+		92AD67CF17283FA0005FD479 /* Brilinta-btn-access-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD676F17283FA0005FD479 /* Brilinta-btn-access-on.png */; };
+		92AD67D017283FA0005FD479 /* Brilinta-btn-access.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677017283FA0005FD479 /* Brilinta-btn-access.png */; };
+		92AD67D117283FA0005FD479 /* Brilinta-btn-bleeding-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677117283FA0005FD479 /* Brilinta-btn-bleeding-on.png */; };
+		92AD67D217283FA0005FD479 /* Brilinta-btn-bleeding.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677217283FA0005FD479 /* Brilinta-btn-bleeding.png */; };
+		92AD67D317283FA0005FD479 /* Brilinta-btn-chemical-class-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677317283FA0005FD479 /* Brilinta-btn-chemical-class-on.png */; };
+		92AD67D417283FA0005FD479 /* Brilinta-btn-chemical-class.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677417283FA0005FD479 /* Brilinta-btn-chemical-class.png */; };
+		92AD67D517283FA0005FD479 /* Brilinta-btn-cri.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677517283FA0005FD479 /* Brilinta-btn-cri.png */; };
+		92AD67D617283FA0005FD479 /* Brilinta-btn-dosing-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677617283FA0005FD479 /* Brilinta-btn-dosing-on.png */; };
+		92AD67D717283FA0005FD479 /* Brilinta-btn-dosing.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677717283FA0005FD479 /* Brilinta-btn-dosing.png */; };
+		92AD67D817283FA0005FD479 /* Brilinta-btn-footnotes-disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677817283FA0005FD479 /* Brilinta-btn-footnotes-disabled.png */; };
+		92AD67D917283FA0005FD479 /* Brilinta-btn-footnotes.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677917283FA0005FD479 /* Brilinta-btn-footnotes.png */; };
+		92AD67DA17283FA0005FD479 /* Brilinta-btn-home-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677A17283FA0005FD479 /* Brilinta-btn-home-on.png */; };
+		92AD67DB17283FA0005FD479 /* Brilinta-btn-home-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677B17283FA0005FD479 /* Brilinta-btn-home-on@2x.png */; };
+		92AD67DC17283FA0005FD479 /* Brilinta-btn-home.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677C17283FA0005FD479 /* Brilinta-btn-home.png */; };
+		92AD67DD17283FA0005FD479 /* Brilinta-btn-home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677D17283FA0005FD479 /* Brilinta-btn-home@2x.png */; };
+		92AD67DE17283FA0005FD479 /* Brilinta-btn-initiation-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677E17283FA0005FD479 /* Brilinta-btn-initiation-on.png */; };
+		92AD67DF17283FA0005FD479 /* Brilinta-btn-initiation.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD677F17283FA0005FD479 /* Brilinta-btn-initiation.png */; };
+		92AD67E017283FA0005FD479 /* Brilinta-btn-menu-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678017283FA0005FD479 /* Brilinta-btn-menu-on.png */; };
+		92AD67E117283FA0005FD479 /* Brilinta-btn-menu-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678117283FA0005FD479 /* Brilinta-btn-menu-on@2x.png */; };
+		92AD67E217283FA0005FD479 /* Brilinta-btn-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678217283FA0005FD479 /* Brilinta-btn-menu.png */; };
+		92AD67E317283FA0005FD479 /* Brilinta-btn-menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678317283FA0005FD479 /* Brilinta-btn-menu@2x.png */; };
+		92AD67E417283FA0005FD479 /* Brilinta-btn-more.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678417283FA0005FD479 /* Brilinta-btn-more.png */; };
+		92AD67E517283FA0005FD479 /* Brilinta-btn-more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678517283FA0005FD479 /* Brilinta-btn-more@2x.png */; };
+		92AD67E617283FA0005FD479 /* Brilinta-btn-overtime-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678617283FA0005FD479 /* Brilinta-btn-overtime-on.png */; };
+		92AD67E717283FA0005FD479 /* Brilinta-btn-overtime.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678717283FA0005FD479 /* Brilinta-btn-overtime.png */; };
+		92AD67E817283FA0005FD479 /* Brilinta-btn-pi-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678817283FA0005FD479 /* Brilinta-btn-pi-on.png */; };
+		92AD67E917283FA0005FD479 /* Brilinta-btn-pi-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678917283FA0005FD479 /* Brilinta-btn-pi-on@2x.png */; };
+		92AD67EA17283FA0005FD479 /* Brilinta-btn-pi.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678A17283FA0005FD479 /* Brilinta-btn-pi.png */; };
+		92AD67EB17283FA0005FD479 /* Brilinta-btn-pi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678B17283FA0005FD479 /* Brilinta-btn-pi@2x.png */; };
+		92AD67EC17283FA0005FD479 /* Brilinta-btn-references.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678C17283FA0005FD479 /* Brilinta-btn-references.png */; };
+		92AD67ED17283FA0005FD479 /* Brilinta-btn-tools-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678D17283FA0005FD479 /* Brilinta-btn-tools-on.png */; };
+		92AD67EE17283FA0005FD479 /* Brilinta-btn-tools-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678E17283FA0005FD479 /* Brilinta-btn-tools-on@2x.png */; };
+		92AD67EF17283FA0005FD479 /* Brilinta-btn-tools.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD678F17283FA0005FD479 /* Brilinta-btn-tools.png */; };
+		92AD67F017283FA0005FD479 /* Brilinta-btn-tools@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679017283FA0005FD479 /* Brilinta-btn-tools@2x.png */; };
+		92AD67F117283FA0005FD479 /* Brilinta-footer-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679117283FA0005FD479 /* Brilinta-footer-background.png */; };
+		92AD67F217283FA0005FD479 /* Brilinta-footer-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679217283FA0005FD479 /* Brilinta-footer-background@2x.png */; };
+		92AD67F317283FA0005FD479 /* Brilinta-header-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679317283FA0005FD479 /* Brilinta-header-bg.png */; };
+		92AD67F417283FA0005FD479 /* Brilinta-ISI-Full.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679417283FA0005FD479 /* Brilinta-ISI-Full.png */; };
+		92AD67F517283FA0005FD479 /* Brilinta-ISI-Full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679517283FA0005FD479 /* Brilinta-ISI-Full@2x.png */; };
+		92AD67F617283FA0005FD479 /* Brilinta-ISI-Partial.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679617283FA0005FD479 /* Brilinta-ISI-Partial.png */; };
+		92AD67F717283FA0005FD479 /* Brilinta-ISI-Partial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679717283FA0005FD479 /* Brilinta-ISI-Partial@2x.png */; };
+		92AD67F817283FA0005FD479 /* Brilinta-Nav-Button-Divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679817283FA0005FD479 /* Brilinta-Nav-Button-Divider.png */; };
+		92AD67F917283FA0005FD479 /* Brilinta-Nav-Button-Divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679917283FA0005FD479 /* Brilinta-Nav-Button-Divider@2x.png */; };
+		92AD67FA17283FA0005FD479 /* Brilinta-seeFullPI.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679A17283FA0005FD479 /* Brilinta-seeFullPI.png */; };
+		92AD67FB17283FA0005FD479 /* Caprelsa-btn-close-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679B17283FA0005FD479 /* Caprelsa-btn-close-on.png */; };
+		92AD67FC17283FA0005FD479 /* Caprelsa-btn-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679C17283FA0005FD479 /* Caprelsa-btn-close.png */; };
+		92AD67FD17283FA0005FD479 /* Caprelsa-btn-home-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679D17283FA0005FD479 /* Caprelsa-btn-home-on.png */; };
+		92AD67FE17283FA0005FD479 /* Caprelsa-btn-home.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679E17283FA0005FD479 /* Caprelsa-btn-home.png */; };
+		92AD67FF17283FA0005FD479 /* Caprelsa-btn-menu-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD679F17283FA0005FD479 /* Caprelsa-btn-menu-on.png */; };
+		92AD680017283FA0005FD479 /* Caprelsa-btn-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A017283FA0005FD479 /* Caprelsa-btn-menu.png */; };
+		92AD680117283FA0005FD479 /* Caprelsa-btn-more.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A117283FA0005FD479 /* Caprelsa-btn-more.png */; };
+		92AD680217283FA0005FD479 /* Caprelsa-btn-PI-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A217283FA0005FD479 /* Caprelsa-btn-PI-on.png */; };
+		92AD680317283FA0005FD479 /* Caprelsa-btn-PI.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A317283FA0005FD479 /* Caprelsa-btn-PI.png */; };
+		92AD680417283FA0005FD479 /* Caprelsa-btn-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A417283FA0005FD479 /* Caprelsa-btn-shadow.png */; };
+		92AD680517283FA0005FD479 /* Caprelsa-btn-summary-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A517283FA0005FD479 /* Caprelsa-btn-summary-on.png */; };
+		92AD680617283FA0005FD479 /* Caprelsa-btn-summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A617283FA0005FD479 /* Caprelsa-btn-summary.png */; };
+		92AD680717283FA0005FD479 /* Caprelsa-home-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A717283FA0005FD479 /* Caprelsa-home-shadow.png */; };
+		92AD680817283FA0005FD479 /* Caprelsa-image_ISI.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A817283FA0005FD479 /* Caprelsa-image_ISI.png */; };
+		92AD680917283FA0005FD479 /* Caprelsa-menu-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67A917283FA0005FD479 /* Caprelsa-menu-shadow.png */; };
+		92AD680A17283FA0005FD479 /* Caprelsa-menuBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67AA17283FA0005FD479 /* Caprelsa-menuBack.png */; };
+		92AD680B17283FA0005FD479 /* Faslodex-btn_menu_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67AB17283FA0005FD479 /* Faslodex-btn_menu_off.png */; };
+		92AD680C17283FA0005FD479 /* Faslodex-btn_menu_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67AC17283FA0005FD479 /* Faslodex-btn_menu_on.png */; };
+		92AD680D17283FA0005FD479 /* logo-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67AD17283FA0005FD479 /* logo-color.png */; };
+		92AD680E17283FA0005FD479 /* logo-color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67AE17283FA0005FD479 /* logo-color@2x.png */; };
+		92AD680F17283FA0005FD479 /* NavLayer_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67AF17283FA0005FD479 /* NavLayer_flag.png */; };
+		92AD681017283FA0005FD479 /* NavLayer_highlightOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B017283FA0005FD479 /* NavLayer_highlightOff.png */; };
+		92AD681117283FA0005FD479 /* NavLayer_highlightOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B117283FA0005FD479 /* NavLayer_highlightOn.png */; };
+		92AD681217283FA0005FD479 /* NavLayerShort_Attitudinal_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B217283FA0005FD479 /* NavLayerShort_Attitudinal_1.png */; };
+		92AD681317283FA0005FD479 /* NavLayerShort_Attitudinal_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B317283FA0005FD479 /* NavLayerShort_Attitudinal_2.png */; };
+		92AD681417283FA0005FD479 /* NavLayerShort_Attitudinal_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B417283FA0005FD479 /* NavLayerShort_Attitudinal_3.png */; };
+		92AD681517283FA0005FD479 /* NavLayerShort_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B517283FA0005FD479 /* NavLayerShort_Background.png */; };
+		92AD681617283FA0005FD479 /* NavLayerShort_briefcase_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B617283FA0005FD479 /* NavLayerShort_briefcase_active.png */; };
+		92AD681717283FA0005FD479 /* NavLayerShort_briefcase_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B717283FA0005FD479 /* NavLayerShort_briefcase_inactive.png */; };
+		92AD681817283FA0005FD479 /* NavLayerShort_exit_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B817283FA0005FD479 /* NavLayerShort_exit_active.png */; };
+		92AD681917283FA0005FD479 /* NavLayerShort_exit_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67B917283FA0005FD479 /* NavLayerShort_exit_inactive.png */; };
+		92AD681A17283FA0005FD479 /* NavLayerShort_hcp_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67BA17283FA0005FD479 /* NavLayerShort_hcp_active.png */; };
+		92AD681B17283FA0005FD479 /* NavLayerShort_hcp_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67BB17283FA0005FD479 /* NavLayerShort_hcp_inactive.png */; };
+		92AD681C17283FA0005FD479 /* NavLayerShort_home_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67BC17283FA0005FD479 /* NavLayerShort_home_active.png */; };
+		92AD681D17283FA0005FD479 /* NavLayerShort_home_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67BD17283FA0005FD479 /* NavLayerShort_home_inactive.png */; };
+		92AD681E17283FA0005FD479 /* NavLayerShort_lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67BE17283FA0005FD479 /* NavLayerShort_lock.png */; };
+		92AD681F17283FA0005FD479 /* NavLayerShort_menu_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67BF17283FA0005FD479 /* NavLayerShort_menu_active.png */; };
+		92AD682017283FA0005FD479 /* NavLayerShort_menu_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C017283FA0005FD479 /* NavLayerShort_menu_inactive.png */; };
+		92AD682117283FA0005FD479 /* NavLayerShort_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C117283FA0005FD479 /* NavLayerShort_overlay.png */; };
+		92AD682217283FA0005FD479 /* NavLayerShort_pi_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C217283FA0005FD479 /* NavLayerShort_pi_active.png */; };
+		92AD682317283FA0005FD479 /* NavLayerShort_pi_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C317283FA0005FD479 /* NavLayerShort_pi_inactive.png */; };
+		92AD682417283FA0005FD479 /* NavLayerShort_sign_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C417283FA0005FD479 /* NavLayerShort_sign_active.png */; };
+		92AD682517283FA0005FD479 /* NavLayerShort_sign_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C517283FA0005FD479 /* NavLayerShort_sign_inactive.png */; };
+		92AD682617283FA0005FD479 /* NavLayerShort_swipeOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C617283FA0005FD479 /* NavLayerShort_swipeOff.png */; };
+		92AD682717283FA0005FD479 /* NavLayerShort_swipeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C717283FA0005FD479 /* NavLayerShort_swipeOn.png */; };
+		92AD682817283FA0005FD479 /* NavLayerShort_unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C817283FA0005FD479 /* NavLayerShort_unlock.png */; };
+		92AD682917283FA0005FD479 /* tools-popup-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67C917283FA0005FD479 /* tools-popup-bg.png */; };
+		92AD682A17283FA0005FD479 /* tools-popup-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67CA17283FA0005FD479 /* tools-popup-bg@2x.png */; };
+		92AD682B17283FA0005FD479 /* tools-popup-button-divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67CB17283FA0005FD479 /* tools-popup-button-divider.png */; };
+		92AD682C17283FA0005FD479 /* tools-popup-button-divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD67CC17283FA0005FD479 /* tools-popup-button-divider@2x.png */; };
+		92AD683517283FB4005FD479 /* PKNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AD682E17283FB4005FD479 /* PKNavigationView.xib */; };
+		92AD683717283FEE005FD479 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 92AD683617283FEE005FD479 /* Scripts */; };
 		F941AB8B1678ED25008A6A7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941AB8A1678ED25008A6A7F /* UIKit.framework */; };
 		F941AB8D1678ED25008A6A7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941AB8C1678ED25008A6A7F /* Foundation.framework */; };
 		F941AB8F1678ED25008A6A7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941AB8E1678ED25008A6A7F /* CoreGraphics.framework */; };
@@ -349,23 +444,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		189BE9C917280B860021CEC8 /* CopyFiles */ = {
+		189BE9C917280B860021CEC8 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 1;
 			files = (
-				189BE9CB17280B9E0021CEC8 /* CN_Symbicort_N_Demo_Navigation.bundle in CopyFiles */,
+				189BE9CB17280B9E0021CEC8 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Files */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		189BE9CA17280B8D0021CEC8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F9F49A3B1679196D00791B9D /* Copy Content Packs */ = {
@@ -791,10 +878,105 @@
 		18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CN_Symbicort_N_Demo_Navigation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FDF3521725130700B6CB62 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_N_Demo_Navigation/Info.plist; sourceTree = SOURCE_ROOT; };
 		18FDF35C1725144B00B6CB62 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = config.plist; path = CN_Symbicort_N_Demo_Menu/config.plist; sourceTree = SOURCE_ROOT; };
-		18FDF35E1725146B00B6CB62 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = CN_Symbicort_N_Demo_Navigation/Content/images; sourceTree = SOURCE_ROOT; };
-		18FDF35F1725146B00B6CB62 /* NavigationOutlets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationOutlets.h; path = CN_Symbicort_N_Demo_Navigation/Content/NavigationOutlets.h; sourceTree = SOURCE_ROOT; };
-		18FDF3601725146B00B6CB62 /* PKNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PKNavigationView.xib; path = CN_Symbicort_N_Demo_Navigation/Content/PKNavigationView.xib; sourceTree = SOURCE_ROOT; };
-		18FDF3611725146B00B6CB62 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = CN_Symbicort_N_Demo_Navigation/Content/Scripts; sourceTree = SOURCE_ROOT; };
+		92AD676D17283FA0005FD479 /* brilinta_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brilinta_button.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/brilinta_button.png; sourceTree = SOURCE_ROOT; };
+		92AD676E17283FA0005FD479 /* brilinta_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "brilinta_button@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/brilinta_button@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD676F17283FA0005FD479 /* Brilinta-btn-access-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-access-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-access-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD677017283FA0005FD479 /* Brilinta-btn-access.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-access.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-access.png"; sourceTree = SOURCE_ROOT; };
+		92AD677117283FA0005FD479 /* Brilinta-btn-bleeding-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-bleeding-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-bleeding-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD677217283FA0005FD479 /* Brilinta-btn-bleeding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-bleeding.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-bleeding.png"; sourceTree = SOURCE_ROOT; };
+		92AD677317283FA0005FD479 /* Brilinta-btn-chemical-class-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-chemical-class-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-chemical-class-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD677417283FA0005FD479 /* Brilinta-btn-chemical-class.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-chemical-class.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-chemical-class.png"; sourceTree = SOURCE_ROOT; };
+		92AD677517283FA0005FD479 /* Brilinta-btn-cri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-cri.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-cri.png"; sourceTree = SOURCE_ROOT; };
+		92AD677617283FA0005FD479 /* Brilinta-btn-dosing-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-dosing-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-dosing-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD677717283FA0005FD479 /* Brilinta-btn-dosing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-dosing.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-dosing.png"; sourceTree = SOURCE_ROOT; };
+		92AD677817283FA0005FD479 /* Brilinta-btn-footnotes-disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-footnotes-disabled.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-footnotes-disabled.png"; sourceTree = SOURCE_ROOT; };
+		92AD677917283FA0005FD479 /* Brilinta-btn-footnotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-footnotes.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-footnotes.png"; sourceTree = SOURCE_ROOT; };
+		92AD677A17283FA0005FD479 /* Brilinta-btn-home-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-home-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-home-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD677B17283FA0005FD479 /* Brilinta-btn-home-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-home-on@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-home-on@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD677C17283FA0005FD479 /* Brilinta-btn-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-home.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-home.png"; sourceTree = SOURCE_ROOT; };
+		92AD677D17283FA0005FD479 /* Brilinta-btn-home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-home@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-home@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD677E17283FA0005FD479 /* Brilinta-btn-initiation-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-initiation-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-initiation-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD677F17283FA0005FD479 /* Brilinta-btn-initiation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-initiation.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-initiation.png"; sourceTree = SOURCE_ROOT; };
+		92AD678017283FA0005FD479 /* Brilinta-btn-menu-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-menu-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-menu-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD678117283FA0005FD479 /* Brilinta-btn-menu-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-menu-on@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-menu-on@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD678217283FA0005FD479 /* Brilinta-btn-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-menu.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-menu.png"; sourceTree = SOURCE_ROOT; };
+		92AD678317283FA0005FD479 /* Brilinta-btn-menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-menu@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-menu@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD678417283FA0005FD479 /* Brilinta-btn-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-more.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-more.png"; sourceTree = SOURCE_ROOT; };
+		92AD678517283FA0005FD479 /* Brilinta-btn-more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-more@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-more@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD678617283FA0005FD479 /* Brilinta-btn-overtime-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-overtime-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-overtime-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD678717283FA0005FD479 /* Brilinta-btn-overtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-overtime.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-overtime.png"; sourceTree = SOURCE_ROOT; };
+		92AD678817283FA0005FD479 /* Brilinta-btn-pi-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-pi-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-pi-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD678917283FA0005FD479 /* Brilinta-btn-pi-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-pi-on@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-pi-on@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD678A17283FA0005FD479 /* Brilinta-btn-pi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-pi.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-pi.png"; sourceTree = SOURCE_ROOT; };
+		92AD678B17283FA0005FD479 /* Brilinta-btn-pi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-pi@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-pi@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD678C17283FA0005FD479 /* Brilinta-btn-references.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-references.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-references.png"; sourceTree = SOURCE_ROOT; };
+		92AD678D17283FA0005FD479 /* Brilinta-btn-tools-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-tools-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-tools-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD678E17283FA0005FD479 /* Brilinta-btn-tools-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-tools-on@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-tools-on@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD678F17283FA0005FD479 /* Brilinta-btn-tools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-tools.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-tools.png"; sourceTree = SOURCE_ROOT; };
+		92AD679017283FA0005FD479 /* Brilinta-btn-tools@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-btn-tools@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-btn-tools@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD679117283FA0005FD479 /* Brilinta-footer-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-footer-background.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-footer-background.png"; sourceTree = SOURCE_ROOT; };
+		92AD679217283FA0005FD479 /* Brilinta-footer-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-footer-background@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-footer-background@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD679317283FA0005FD479 /* Brilinta-header-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-header-bg.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-header-bg.png"; sourceTree = SOURCE_ROOT; };
+		92AD679417283FA0005FD479 /* Brilinta-ISI-Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-ISI-Full.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-ISI-Full.png"; sourceTree = SOURCE_ROOT; };
+		92AD679517283FA0005FD479 /* Brilinta-ISI-Full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-ISI-Full@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-ISI-Full@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD679617283FA0005FD479 /* Brilinta-ISI-Partial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-ISI-Partial.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-ISI-Partial.png"; sourceTree = SOURCE_ROOT; };
+		92AD679717283FA0005FD479 /* Brilinta-ISI-Partial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-ISI-Partial@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-ISI-Partial@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD679817283FA0005FD479 /* Brilinta-Nav-Button-Divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-Nav-Button-Divider.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-Nav-Button-Divider.png"; sourceTree = SOURCE_ROOT; };
+		92AD679917283FA0005FD479 /* Brilinta-Nav-Button-Divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-Nav-Button-Divider@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-Nav-Button-Divider@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD679A17283FA0005FD479 /* Brilinta-seeFullPI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brilinta-seeFullPI.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Brilinta-seeFullPI.png"; sourceTree = SOURCE_ROOT; };
+		92AD679B17283FA0005FD479 /* Caprelsa-btn-close-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-close-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-close-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD679C17283FA0005FD479 /* Caprelsa-btn-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-close.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-close.png"; sourceTree = SOURCE_ROOT; };
+		92AD679D17283FA0005FD479 /* Caprelsa-btn-home-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-home-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-home-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD679E17283FA0005FD479 /* Caprelsa-btn-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-home.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-home.png"; sourceTree = SOURCE_ROOT; };
+		92AD679F17283FA0005FD479 /* Caprelsa-btn-menu-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-menu-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-menu-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A017283FA0005FD479 /* Caprelsa-btn-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-menu.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-menu.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A117283FA0005FD479 /* Caprelsa-btn-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-more.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-more.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A217283FA0005FD479 /* Caprelsa-btn-PI-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-PI-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-PI-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A317283FA0005FD479 /* Caprelsa-btn-PI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-PI.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-PI.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A417283FA0005FD479 /* Caprelsa-btn-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-shadow.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-shadow.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A517283FA0005FD479 /* Caprelsa-btn-summary-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-summary-on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-summary-on.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A617283FA0005FD479 /* Caprelsa-btn-summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-btn-summary.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-btn-summary.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A717283FA0005FD479 /* Caprelsa-home-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-home-shadow.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-home-shadow.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A817283FA0005FD479 /* Caprelsa-image_ISI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-image_ISI.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-image_ISI.png"; sourceTree = SOURCE_ROOT; };
+		92AD67A917283FA0005FD479 /* Caprelsa-menu-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-menu-shadow.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-menu-shadow.png"; sourceTree = SOURCE_ROOT; };
+		92AD67AA17283FA0005FD479 /* Caprelsa-menuBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Caprelsa-menuBack.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Caprelsa-menuBack.png"; sourceTree = SOURCE_ROOT; };
+		92AD67AB17283FA0005FD479 /* Faslodex-btn_menu_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Faslodex-btn_menu_off.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Faslodex-btn_menu_off.png"; sourceTree = SOURCE_ROOT; };
+		92AD67AC17283FA0005FD479 /* Faslodex-btn_menu_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Faslodex-btn_menu_on.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/Faslodex-btn_menu_on.png"; sourceTree = SOURCE_ROOT; };
+		92AD67AD17283FA0005FD479 /* logo-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-color.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/logo-color.png"; sourceTree = SOURCE_ROOT; };
+		92AD67AE17283FA0005FD479 /* logo-color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-color@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/logo-color@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD67AF17283FA0005FD479 /* NavLayer_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayer_flag.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayer_flag.png; sourceTree = SOURCE_ROOT; };
+		92AD67B017283FA0005FD479 /* NavLayer_highlightOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayer_highlightOff.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayer_highlightOff.png; sourceTree = SOURCE_ROOT; };
+		92AD67B117283FA0005FD479 /* NavLayer_highlightOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayer_highlightOn.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayer_highlightOn.png; sourceTree = SOURCE_ROOT; };
+		92AD67B217283FA0005FD479 /* NavLayerShort_Attitudinal_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_Attitudinal_1.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_Attitudinal_1.png; sourceTree = SOURCE_ROOT; };
+		92AD67B317283FA0005FD479 /* NavLayerShort_Attitudinal_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_Attitudinal_2.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_Attitudinal_2.png; sourceTree = SOURCE_ROOT; };
+		92AD67B417283FA0005FD479 /* NavLayerShort_Attitudinal_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_Attitudinal_3.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_Attitudinal_3.png; sourceTree = SOURCE_ROOT; };
+		92AD67B517283FA0005FD479 /* NavLayerShort_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_Background.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_Background.png; sourceTree = SOURCE_ROOT; };
+		92AD67B617283FA0005FD479 /* NavLayerShort_briefcase_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_briefcase_active.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_briefcase_active.png; sourceTree = SOURCE_ROOT; };
+		92AD67B717283FA0005FD479 /* NavLayerShort_briefcase_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_briefcase_inactive.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_briefcase_inactive.png; sourceTree = SOURCE_ROOT; };
+		92AD67B817283FA0005FD479 /* NavLayerShort_exit_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_exit_active.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_exit_active.png; sourceTree = SOURCE_ROOT; };
+		92AD67B917283FA0005FD479 /* NavLayerShort_exit_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_exit_inactive.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_exit_inactive.png; sourceTree = SOURCE_ROOT; };
+		92AD67BA17283FA0005FD479 /* NavLayerShort_hcp_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_hcp_active.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_hcp_active.png; sourceTree = SOURCE_ROOT; };
+		92AD67BB17283FA0005FD479 /* NavLayerShort_hcp_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_hcp_inactive.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_hcp_inactive.png; sourceTree = SOURCE_ROOT; };
+		92AD67BC17283FA0005FD479 /* NavLayerShort_home_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_home_active.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_home_active.png; sourceTree = SOURCE_ROOT; };
+		92AD67BD17283FA0005FD479 /* NavLayerShort_home_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_home_inactive.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_home_inactive.png; sourceTree = SOURCE_ROOT; };
+		92AD67BE17283FA0005FD479 /* NavLayerShort_lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_lock.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_lock.png; sourceTree = SOURCE_ROOT; };
+		92AD67BF17283FA0005FD479 /* NavLayerShort_menu_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_menu_active.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_menu_active.png; sourceTree = SOURCE_ROOT; };
+		92AD67C017283FA0005FD479 /* NavLayerShort_menu_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_menu_inactive.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_menu_inactive.png; sourceTree = SOURCE_ROOT; };
+		92AD67C117283FA0005FD479 /* NavLayerShort_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_overlay.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_overlay.png; sourceTree = SOURCE_ROOT; };
+		92AD67C217283FA0005FD479 /* NavLayerShort_pi_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_pi_active.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_pi_active.png; sourceTree = SOURCE_ROOT; };
+		92AD67C317283FA0005FD479 /* NavLayerShort_pi_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_pi_inactive.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_pi_inactive.png; sourceTree = SOURCE_ROOT; };
+		92AD67C417283FA0005FD479 /* NavLayerShort_sign_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_sign_active.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_sign_active.png; sourceTree = SOURCE_ROOT; };
+		92AD67C517283FA0005FD479 /* NavLayerShort_sign_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_sign_inactive.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_sign_inactive.png; sourceTree = SOURCE_ROOT; };
+		92AD67C617283FA0005FD479 /* NavLayerShort_swipeOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_swipeOff.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_swipeOff.png; sourceTree = SOURCE_ROOT; };
+		92AD67C717283FA0005FD479 /* NavLayerShort_swipeOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_swipeOn.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_swipeOn.png; sourceTree = SOURCE_ROOT; };
+		92AD67C817283FA0005FD479 /* NavLayerShort_unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavLayerShort_unlock.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/NavLayerShort_unlock.png; sourceTree = SOURCE_ROOT; };
+		92AD67C917283FA0005FD479 /* tools-popup-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tools-popup-bg.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/tools-popup-bg.png"; sourceTree = SOURCE_ROOT; };
+		92AD67CA17283FA0005FD479 /* tools-popup-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tools-popup-bg@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/tools-popup-bg@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD67CB17283FA0005FD479 /* tools-popup-button-divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tools-popup-button-divider.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/tools-popup-button-divider.png"; sourceTree = SOURCE_ROOT; };
+		92AD67CC17283FA0005FD479 /* tools-popup-button-divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tools-popup-button-divider@2x.png"; path = "CN_Symbicort_N_Demo_Navigation/Content/images/tools-popup-button-divider@2x.png"; sourceTree = SOURCE_ROOT; };
+		92AD682D17283FB4005FD479 /* NavigationOutlets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationOutlets.h; path = CN_Symbicort_N_Demo_Navigation/Content/NavigationOutlets.h; sourceTree = SOURCE_ROOT; };
+		92AD682E17283FB4005FD479 /* PKNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PKNavigationView.xib; path = CN_Symbicort_N_Demo_Navigation/Content/PKNavigationView.xib; sourceTree = SOURCE_ROOT; };
+		92AD683617283FEE005FD479 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = CN_Symbicort_N_Demo_Navigation/Content/Scripts; sourceTree = SOURCE_ROOT; };
 		F941AB861678ED25008A6A7F /* CN_Symbicort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CN_Symbicort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F941AB8A1678ED25008A6A7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F941AB8C1678ED25008A6A7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1486,21 +1668,116 @@
 		18FDF351172512F500B6CB62 /* CN_Symbicort_N_Demo_Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				18FDF3541725134C00B6CB62 /* Content */,
+				92AD676C17283F6E005FD479 /* images */,
+				92AD683617283FEE005FD479 /* Scripts */,
+				92AD682D17283FB4005FD479 /* NavigationOutlets.h */,
+				92AD682E17283FB4005FD479 /* PKNavigationView.xib */,
 				18FDF3521725130700B6CB62 /* Info.plist */,
 			);
 			name = CN_Symbicort_N_Demo_Navigation;
 			sourceTree = "<group>";
 		};
-		18FDF3541725134C00B6CB62 /* Content */ = {
+		92AD676C17283F6E005FD479 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				18FDF35E1725146B00B6CB62 /* images */,
-				18FDF35F1725146B00B6CB62 /* NavigationOutlets.h */,
-				18FDF3601725146B00B6CB62 /* PKNavigationView.xib */,
-				18FDF3611725146B00B6CB62 /* Scripts */,
+				92AD676D17283FA0005FD479 /* brilinta_button.png */,
+				92AD676E17283FA0005FD479 /* brilinta_button@2x.png */,
+				92AD676F17283FA0005FD479 /* Brilinta-btn-access-on.png */,
+				92AD677017283FA0005FD479 /* Brilinta-btn-access.png */,
+				92AD677117283FA0005FD479 /* Brilinta-btn-bleeding-on.png */,
+				92AD677217283FA0005FD479 /* Brilinta-btn-bleeding.png */,
+				92AD677317283FA0005FD479 /* Brilinta-btn-chemical-class-on.png */,
+				92AD677417283FA0005FD479 /* Brilinta-btn-chemical-class.png */,
+				92AD677517283FA0005FD479 /* Brilinta-btn-cri.png */,
+				92AD677617283FA0005FD479 /* Brilinta-btn-dosing-on.png */,
+				92AD677717283FA0005FD479 /* Brilinta-btn-dosing.png */,
+				92AD677817283FA0005FD479 /* Brilinta-btn-footnotes-disabled.png */,
+				92AD677917283FA0005FD479 /* Brilinta-btn-footnotes.png */,
+				92AD677A17283FA0005FD479 /* Brilinta-btn-home-on.png */,
+				92AD677B17283FA0005FD479 /* Brilinta-btn-home-on@2x.png */,
+				92AD677C17283FA0005FD479 /* Brilinta-btn-home.png */,
+				92AD677D17283FA0005FD479 /* Brilinta-btn-home@2x.png */,
+				92AD677E17283FA0005FD479 /* Brilinta-btn-initiation-on.png */,
+				92AD677F17283FA0005FD479 /* Brilinta-btn-initiation.png */,
+				92AD678017283FA0005FD479 /* Brilinta-btn-menu-on.png */,
+				92AD678117283FA0005FD479 /* Brilinta-btn-menu-on@2x.png */,
+				92AD678217283FA0005FD479 /* Brilinta-btn-menu.png */,
+				92AD678317283FA0005FD479 /* Brilinta-btn-menu@2x.png */,
+				92AD678417283FA0005FD479 /* Brilinta-btn-more.png */,
+				92AD678517283FA0005FD479 /* Brilinta-btn-more@2x.png */,
+				92AD678617283FA0005FD479 /* Brilinta-btn-overtime-on.png */,
+				92AD678717283FA0005FD479 /* Brilinta-btn-overtime.png */,
+				92AD678817283FA0005FD479 /* Brilinta-btn-pi-on.png */,
+				92AD678917283FA0005FD479 /* Brilinta-btn-pi-on@2x.png */,
+				92AD678A17283FA0005FD479 /* Brilinta-btn-pi.png */,
+				92AD678B17283FA0005FD479 /* Brilinta-btn-pi@2x.png */,
+				92AD678C17283FA0005FD479 /* Brilinta-btn-references.png */,
+				92AD678D17283FA0005FD479 /* Brilinta-btn-tools-on.png */,
+				92AD678E17283FA0005FD479 /* Brilinta-btn-tools-on@2x.png */,
+				92AD678F17283FA0005FD479 /* Brilinta-btn-tools.png */,
+				92AD679017283FA0005FD479 /* Brilinta-btn-tools@2x.png */,
+				92AD679117283FA0005FD479 /* Brilinta-footer-background.png */,
+				92AD679217283FA0005FD479 /* Brilinta-footer-background@2x.png */,
+				92AD679317283FA0005FD479 /* Brilinta-header-bg.png */,
+				92AD679417283FA0005FD479 /* Brilinta-ISI-Full.png */,
+				92AD679517283FA0005FD479 /* Brilinta-ISI-Full@2x.png */,
+				92AD679617283FA0005FD479 /* Brilinta-ISI-Partial.png */,
+				92AD679717283FA0005FD479 /* Brilinta-ISI-Partial@2x.png */,
+				92AD679817283FA0005FD479 /* Brilinta-Nav-Button-Divider.png */,
+				92AD679917283FA0005FD479 /* Brilinta-Nav-Button-Divider@2x.png */,
+				92AD679A17283FA0005FD479 /* Brilinta-seeFullPI.png */,
+				92AD679B17283FA0005FD479 /* Caprelsa-btn-close-on.png */,
+				92AD679C17283FA0005FD479 /* Caprelsa-btn-close.png */,
+				92AD679D17283FA0005FD479 /* Caprelsa-btn-home-on.png */,
+				92AD679E17283FA0005FD479 /* Caprelsa-btn-home.png */,
+				92AD679F17283FA0005FD479 /* Caprelsa-btn-menu-on.png */,
+				92AD67A017283FA0005FD479 /* Caprelsa-btn-menu.png */,
+				92AD67A117283FA0005FD479 /* Caprelsa-btn-more.png */,
+				92AD67A217283FA0005FD479 /* Caprelsa-btn-PI-on.png */,
+				92AD67A317283FA0005FD479 /* Caprelsa-btn-PI.png */,
+				92AD67A417283FA0005FD479 /* Caprelsa-btn-shadow.png */,
+				92AD67A517283FA0005FD479 /* Caprelsa-btn-summary-on.png */,
+				92AD67A617283FA0005FD479 /* Caprelsa-btn-summary.png */,
+				92AD67A717283FA0005FD479 /* Caprelsa-home-shadow.png */,
+				92AD67A817283FA0005FD479 /* Caprelsa-image_ISI.png */,
+				92AD67A917283FA0005FD479 /* Caprelsa-menu-shadow.png */,
+				92AD67AA17283FA0005FD479 /* Caprelsa-menuBack.png */,
+				92AD67AB17283FA0005FD479 /* Faslodex-btn_menu_off.png */,
+				92AD67AC17283FA0005FD479 /* Faslodex-btn_menu_on.png */,
+				92AD67AD17283FA0005FD479 /* logo-color.png */,
+				92AD67AE17283FA0005FD479 /* logo-color@2x.png */,
+				92AD67AF17283FA0005FD479 /* NavLayer_flag.png */,
+				92AD67B017283FA0005FD479 /* NavLayer_highlightOff.png */,
+				92AD67B117283FA0005FD479 /* NavLayer_highlightOn.png */,
+				92AD67B217283FA0005FD479 /* NavLayerShort_Attitudinal_1.png */,
+				92AD67B317283FA0005FD479 /* NavLayerShort_Attitudinal_2.png */,
+				92AD67B417283FA0005FD479 /* NavLayerShort_Attitudinal_3.png */,
+				92AD67B517283FA0005FD479 /* NavLayerShort_Background.png */,
+				92AD67B617283FA0005FD479 /* NavLayerShort_briefcase_active.png */,
+				92AD67B717283FA0005FD479 /* NavLayerShort_briefcase_inactive.png */,
+				92AD67B817283FA0005FD479 /* NavLayerShort_exit_active.png */,
+				92AD67B917283FA0005FD479 /* NavLayerShort_exit_inactive.png */,
+				92AD67BA17283FA0005FD479 /* NavLayerShort_hcp_active.png */,
+				92AD67BB17283FA0005FD479 /* NavLayerShort_hcp_inactive.png */,
+				92AD67BC17283FA0005FD479 /* NavLayerShort_home_active.png */,
+				92AD67BD17283FA0005FD479 /* NavLayerShort_home_inactive.png */,
+				92AD67BE17283FA0005FD479 /* NavLayerShort_lock.png */,
+				92AD67BF17283FA0005FD479 /* NavLayerShort_menu_active.png */,
+				92AD67C017283FA0005FD479 /* NavLayerShort_menu_inactive.png */,
+				92AD67C117283FA0005FD479 /* NavLayerShort_overlay.png */,
+				92AD67C217283FA0005FD479 /* NavLayerShort_pi_active.png */,
+				92AD67C317283FA0005FD479 /* NavLayerShort_pi_inactive.png */,
+				92AD67C417283FA0005FD479 /* NavLayerShort_sign_active.png */,
+				92AD67C517283FA0005FD479 /* NavLayerShort_sign_inactive.png */,
+				92AD67C617283FA0005FD479 /* NavLayerShort_swipeOff.png */,
+				92AD67C717283FA0005FD479 /* NavLayerShort_swipeOn.png */,
+				92AD67C817283FA0005FD479 /* NavLayerShort_unlock.png */,
+				92AD67C917283FA0005FD479 /* tools-popup-bg.png */,
+				92AD67CA17283FA0005FD479 /* tools-popup-bg@2x.png */,
+				92AD67CB17283FA0005FD479 /* tools-popup-button-divider.png */,
+				92AD67CC17283FA0005FD479 /* tools-popup-button-divider@2x.png */,
 			);
-			name = Content;
+			name = images;
 			sourceTree = "<group>";
 		};
 		F941AB7B1678ED25008A6A7F = {
@@ -1752,8 +2029,7 @@
 			buildConfigurationList = 180E276D1712997900730F7E /* Build configuration list for PBXNativeTarget "CN_Symbicort_N_Demo_Menu" */;
 			buildPhases = (
 				180E276C1712997900730F7E /* Resources */,
-				189BE9C917280B860021CEC8 /* CopyFiles */,
-				189BE9CA17280B8D0021CEC8 /* CopyFiles */,
+				189BE9C917280B860021CEC8 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -3079,9 +3355,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FDF3621725146B00B6CB62 /* images in Resources */,
-				18FDF3631725146B00B6CB62 /* PKNavigationView.xib in Resources */,
-				18FDF3641725146B00B6CB62 /* Scripts in Resources */,
+				92AD67CD17283FA0005FD479 /* brilinta_button.png in Resources */,
+				92AD67CE17283FA0005FD479 /* brilinta_button@2x.png in Resources */,
+				92AD67CF17283FA0005FD479 /* Brilinta-btn-access-on.png in Resources */,
+				92AD67D017283FA0005FD479 /* Brilinta-btn-access.png in Resources */,
+				92AD67D117283FA0005FD479 /* Brilinta-btn-bleeding-on.png in Resources */,
+				92AD67D217283FA0005FD479 /* Brilinta-btn-bleeding.png in Resources */,
+				92AD67D317283FA0005FD479 /* Brilinta-btn-chemical-class-on.png in Resources */,
+				92AD67D417283FA0005FD479 /* Brilinta-btn-chemical-class.png in Resources */,
+				92AD67D517283FA0005FD479 /* Brilinta-btn-cri.png in Resources */,
+				92AD67D617283FA0005FD479 /* Brilinta-btn-dosing-on.png in Resources */,
+				92AD67D717283FA0005FD479 /* Brilinta-btn-dosing.png in Resources */,
+				92AD67D817283FA0005FD479 /* Brilinta-btn-footnotes-disabled.png in Resources */,
+				92AD67D917283FA0005FD479 /* Brilinta-btn-footnotes.png in Resources */,
+				92AD67DA17283FA0005FD479 /* Brilinta-btn-home-on.png in Resources */,
+				92AD67DB17283FA0005FD479 /* Brilinta-btn-home-on@2x.png in Resources */,
+				92AD67DC17283FA0005FD479 /* Brilinta-btn-home.png in Resources */,
+				92AD67DD17283FA0005FD479 /* Brilinta-btn-home@2x.png in Resources */,
+				92AD67DE17283FA0005FD479 /* Brilinta-btn-initiation-on.png in Resources */,
+				92AD67DF17283FA0005FD479 /* Brilinta-btn-initiation.png in Resources */,
+				92AD67E017283FA0005FD479 /* Brilinta-btn-menu-on.png in Resources */,
+				92AD67E117283FA0005FD479 /* Brilinta-btn-menu-on@2x.png in Resources */,
+				92AD67E217283FA0005FD479 /* Brilinta-btn-menu.png in Resources */,
+				92AD67E317283FA0005FD479 /* Brilinta-btn-menu@2x.png in Resources */,
+				92AD67E417283FA0005FD479 /* Brilinta-btn-more.png in Resources */,
+				92AD67E517283FA0005FD479 /* Brilinta-btn-more@2x.png in Resources */,
+				92AD67E617283FA0005FD479 /* Brilinta-btn-overtime-on.png in Resources */,
+				92AD67E717283FA0005FD479 /* Brilinta-btn-overtime.png in Resources */,
+				92AD67E817283FA0005FD479 /* Brilinta-btn-pi-on.png in Resources */,
+				92AD67E917283FA0005FD479 /* Brilinta-btn-pi-on@2x.png in Resources */,
+				92AD67EA17283FA0005FD479 /* Brilinta-btn-pi.png in Resources */,
+				92AD67EB17283FA0005FD479 /* Brilinta-btn-pi@2x.png in Resources */,
+				92AD67EC17283FA0005FD479 /* Brilinta-btn-references.png in Resources */,
+				92AD67ED17283FA0005FD479 /* Brilinta-btn-tools-on.png in Resources */,
+				92AD67EE17283FA0005FD479 /* Brilinta-btn-tools-on@2x.png in Resources */,
+				92AD67EF17283FA0005FD479 /* Brilinta-btn-tools.png in Resources */,
+				92AD67F017283FA0005FD479 /* Brilinta-btn-tools@2x.png in Resources */,
+				92AD67F117283FA0005FD479 /* Brilinta-footer-background.png in Resources */,
+				92AD67F217283FA0005FD479 /* Brilinta-footer-background@2x.png in Resources */,
+				92AD67F317283FA0005FD479 /* Brilinta-header-bg.png in Resources */,
+				92AD67F417283FA0005FD479 /* Brilinta-ISI-Full.png in Resources */,
+				92AD67F517283FA0005FD479 /* Brilinta-ISI-Full@2x.png in Resources */,
+				92AD67F617283FA0005FD479 /* Brilinta-ISI-Partial.png in Resources */,
+				92AD67F717283FA0005FD479 /* Brilinta-ISI-Partial@2x.png in Resources */,
+				92AD67F817283FA0005FD479 /* Brilinta-Nav-Button-Divider.png in Resources */,
+				92AD67F917283FA0005FD479 /* Brilinta-Nav-Button-Divider@2x.png in Resources */,
+				92AD67FA17283FA0005FD479 /* Brilinta-seeFullPI.png in Resources */,
+				92AD67FB17283FA0005FD479 /* Caprelsa-btn-close-on.png in Resources */,
+				92AD67FC17283FA0005FD479 /* Caprelsa-btn-close.png in Resources */,
+				92AD67FD17283FA0005FD479 /* Caprelsa-btn-home-on.png in Resources */,
+				92AD67FE17283FA0005FD479 /* Caprelsa-btn-home.png in Resources */,
+				92AD67FF17283FA0005FD479 /* Caprelsa-btn-menu-on.png in Resources */,
+				92AD680017283FA0005FD479 /* Caprelsa-btn-menu.png in Resources */,
+				92AD680117283FA0005FD479 /* Caprelsa-btn-more.png in Resources */,
+				92AD680217283FA0005FD479 /* Caprelsa-btn-PI-on.png in Resources */,
+				92AD680317283FA0005FD479 /* Caprelsa-btn-PI.png in Resources */,
+				92AD680417283FA0005FD479 /* Caprelsa-btn-shadow.png in Resources */,
+				92AD680517283FA0005FD479 /* Caprelsa-btn-summary-on.png in Resources */,
+				92AD680617283FA0005FD479 /* Caprelsa-btn-summary.png in Resources */,
+				92AD680717283FA0005FD479 /* Caprelsa-home-shadow.png in Resources */,
+				92AD680817283FA0005FD479 /* Caprelsa-image_ISI.png in Resources */,
+				92AD680917283FA0005FD479 /* Caprelsa-menu-shadow.png in Resources */,
+				92AD680A17283FA0005FD479 /* Caprelsa-menuBack.png in Resources */,
+				92AD680B17283FA0005FD479 /* Faslodex-btn_menu_off.png in Resources */,
+				92AD680C17283FA0005FD479 /* Faslodex-btn_menu_on.png in Resources */,
+				92AD680D17283FA0005FD479 /* logo-color.png in Resources */,
+				92AD680E17283FA0005FD479 /* logo-color@2x.png in Resources */,
+				92AD680F17283FA0005FD479 /* NavLayer_flag.png in Resources */,
+				92AD681017283FA0005FD479 /* NavLayer_highlightOff.png in Resources */,
+				92AD681117283FA0005FD479 /* NavLayer_highlightOn.png in Resources */,
+				92AD681217283FA0005FD479 /* NavLayerShort_Attitudinal_1.png in Resources */,
+				92AD681317283FA0005FD479 /* NavLayerShort_Attitudinal_2.png in Resources */,
+				92AD681417283FA0005FD479 /* NavLayerShort_Attitudinal_3.png in Resources */,
+				92AD681517283FA0005FD479 /* NavLayerShort_Background.png in Resources */,
+				92AD681617283FA0005FD479 /* NavLayerShort_briefcase_active.png in Resources */,
+				92AD681717283FA0005FD479 /* NavLayerShort_briefcase_inactive.png in Resources */,
+				92AD681817283FA0005FD479 /* NavLayerShort_exit_active.png in Resources */,
+				92AD681917283FA0005FD479 /* NavLayerShort_exit_inactive.png in Resources */,
+				92AD681A17283FA0005FD479 /* NavLayerShort_hcp_active.png in Resources */,
+				92AD681B17283FA0005FD479 /* NavLayerShort_hcp_inactive.png in Resources */,
+				92AD681C17283FA0005FD479 /* NavLayerShort_home_active.png in Resources */,
+				92AD681D17283FA0005FD479 /* NavLayerShort_home_inactive.png in Resources */,
+				92AD681E17283FA0005FD479 /* NavLayerShort_lock.png in Resources */,
+				92AD681F17283FA0005FD479 /* NavLayerShort_menu_active.png in Resources */,
+				92AD682017283FA0005FD479 /* NavLayerShort_menu_inactive.png in Resources */,
+				92AD682117283FA0005FD479 /* NavLayerShort_overlay.png in Resources */,
+				92AD682217283FA0005FD479 /* NavLayerShort_pi_active.png in Resources */,
+				92AD682317283FA0005FD479 /* NavLayerShort_pi_inactive.png in Resources */,
+				92AD682417283FA0005FD479 /* NavLayerShort_sign_active.png in Resources */,
+				92AD682517283FA0005FD479 /* NavLayerShort_sign_inactive.png in Resources */,
+				92AD682617283FA0005FD479 /* NavLayerShort_swipeOff.png in Resources */,
+				92AD682717283FA0005FD479 /* NavLayerShort_swipeOn.png in Resources */,
+				92AD682817283FA0005FD479 /* NavLayerShort_unlock.png in Resources */,
+				92AD682917283FA0005FD479 /* tools-popup-bg.png in Resources */,
+				92AD682A17283FA0005FD479 /* tools-popup-bg@2x.png in Resources */,
+				92AD682B17283FA0005FD479 /* tools-popup-button-divider.png in Resources */,
+				92AD682C17283FA0005FD479 /* tools-popup-button-divider@2x.png in Resources */,
+				92AD683517283FB4005FD479 /* PKNavigationView.xib in Resources */,
+				92AD683717283FEE005FD479 /* Scripts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

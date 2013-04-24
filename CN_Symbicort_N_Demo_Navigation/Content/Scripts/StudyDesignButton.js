@@ -1,1 +1,0 @@
-SystemBridge.launchPDFViewer('package://US_EN_Brilinta_D_PDF/StudyDesign.pdf','PLATO Study Design',null);
