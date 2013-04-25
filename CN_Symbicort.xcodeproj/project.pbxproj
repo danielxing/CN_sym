@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		180E28D41712A3A100730F7E /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 180E28D21712A3A100730F7E /* Presentation */; };
-		180E28D81712A3B600730F7E /* label.png in Resources */ = {isa = PBXBuildFile; fileRef = 180E28D61712A3B600730F7E /* label.png */; };
 		180E29001712A46800730F7E /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 180E28F91712A46800730F7E /* config.plist */; };
 		180E29011712A46800730F7E /* css in Resources */ = {isa = PBXBuildFile; fileRef = 180E28FA1712A46800730F7E /* css */; };
 		180E29021712A46800730F7E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 180E28FB1712A46800730F7E /* images */; };
@@ -270,6 +269,8 @@
 		18310E001714049B00AE3092 /* SYM Turbuhaler Adults.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18310DFF1714049B00AE3092 /* SYM Turbuhaler Adults.mp4 */; };
 		1893BCE717153EFE00251BC1 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 1893BCE617153EFE00251BC1 /* js */; };
 		1893BCE917153F9300251BC1 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 1893BCE817153F9300251BC1 /* js */; };
+		1894EE281728FBD200323BB9 /* label.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894EE271728FBC300323BB9 /* label.png */; };
+		1894EE2A1728FCB900323BB9 /* label.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894EE291728FCB900323BB9 /* label.png */; };
 		189BE9CB17280B9E0021CEC8 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */; };
 		18F691C61712C43D00DF8F6B /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F691C51712C43D00DF8F6B /* config.plist */; };
 		18F691CD1712CCF300DF8F6B /* css in Resources */ = {isa = PBXBuildFile; fileRef = 18F691C71712CCF300DF8F6B /* css */; };
@@ -565,7 +566,6 @@
 		180E28D11712A3A100730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_P_Main/Info.plist; sourceTree = SOURCE_ROOT; };
 		180E28D21712A3A100730F7E /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Presentation; path = CN_Symbicort_P_Main/Presentation; sourceTree = SOURCE_ROOT; };
 		180E28D51712A3B600730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_D_Label/Info.plist; sourceTree = SOURCE_ROOT; };
-		180E28D61712A3B600730F7E /* label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = label.png; path = CN_Symbicort_D_Label/label.png; sourceTree = SOURCE_ROOT; };
 		180E28D91712A3C300730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_D_Video1/Info.plist; sourceTree = SOURCE_ROOT; };
 		180E28DD1712A3D400730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_D_Video2/Info.plist; sourceTree = SOURCE_ROOT; };
 		180E28E11712A3E200730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_D_Video3/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -867,6 +867,8 @@
 		18310DFF1714049B00AE3092 /* SYM Turbuhaler Adults.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SYM Turbuhaler Adults.mp4"; path = "CN_Symbicort_D_Video4/SYM Turbuhaler Adults.mp4"; sourceTree = SOURCE_ROOT; };
 		1893BCE617153EFE00251BC1 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = CN_Symbicort_S_Page1.3/js; sourceTree = SOURCE_ROOT; };
 		1893BCE817153F9300251BC1 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = CN_Symbicort_S_Page2.3/js; sourceTree = SOURCE_ROOT; };
+		1894EE271728FBC300323BB9 /* label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = label.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/label.png; sourceTree = SOURCE_ROOT; };
+		1894EE291728FCB900323BB9 /* label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = label.png; path = CN_Symbicort_D_Label/label.png; sourceTree = SOURCE_ROOT; };
 		18F691C51712C43D00DF8F6B /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = config.plist; path = CN_Symbicort_S_Page7.1/config.plist; sourceTree = SOURCE_ROOT; };
 		18F691C71712CCF300DF8F6B /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = CN_Symbicort_S_Page7.1/css; sourceTree = SOURCE_ROOT; };
 		18F691C81712CCF300DF8F6B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = CN_Symbicort_S_Page7.1/images; sourceTree = SOURCE_ROOT; };
@@ -1034,8 +1036,8 @@
 		180E28A017129F7C00730F7E /* CN_Symbicort_D_Label */ = {
 			isa = PBXGroup;
 			children = (
+				1894EE291728FCB900323BB9 /* label.png */,
 				180E28D51712A3B600730F7E /* Info.plist */,
-				180E28D61712A3B600730F7E /* label.png */,
 			);
 			name = CN_Symbicort_D_Label;
 			sourceTree = "<group>";
@@ -1680,6 +1682,7 @@
 		92AD676C17283F6E005FD479 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				1894EE271728FBC300323BB9 /* label.png */,
 				92AD676D17283FA0005FD479 /* brilinta_button.png */,
 				92AD676E17283FA0005FD479 /* brilinta_button@2x.png */,
 				92AD676F17283FA0005FD479 /* Brilinta-btn-access-on.png */,
@@ -2767,7 +2770,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180E28D81712A3B600730F7E /* label.png in Resources */,
+				1894EE2A1728FCB900323BB9 /* label.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3453,6 +3456,7 @@
 				92AD682C17283FA0005FD479 /* tools-popup-button-divider@2x.png in Resources */,
 				92AD683517283FB4005FD479 /* PKNavigationView.xib in Resources */,
 				92AD683717283FEE005FD479 /* Scripts in Resources */,
+				1894EE281728FBD200323BB9 /* label.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
