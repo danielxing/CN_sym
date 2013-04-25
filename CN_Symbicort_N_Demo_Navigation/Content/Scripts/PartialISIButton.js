@@ -1,1 +1,0 @@
-SystemBridge.goToSlide('Important Safety Information');
