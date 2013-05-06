@@ -31,52 +31,11 @@
 		<key>Dependencies</key>
 		<array>
 			<string>CN_Symbicort_N_Demo_Navigation</string>
-			<string>CN_Symbicort_S_Page8.0_SurveyResult</string>
-			<string>CN_Symbicort_S_Page8.0_Survey</string>
-			<string>CN_Symbicort_S_Page7.1</string>
-			<string>CN_Symbicort_S_Page6.1_PopUp</string>
-			<string>CN_Symbicort_S_Page6.1</string>
-			<string>CN_Symbicort_S_Page5.2_Table3</string>
-			<string>CN_Symbicort_S_Page5.1_VideoPopUp3</string>
-			<string>CN_Symbicort_S_Page5.1_VideoPopUp2</string>
-			<string>CN_Symbicort_S_Page5.1_VideoPopUp1</string>
-			<string>CN_Symbicort_S_Page5.1_PopUp</string>
-			<string>CN_Symbicort_S_Page5.1</string>
-			<string>CN_Symbicort_S_Page4.3.2.2</string>
-			<string>CN_Symbicort_S_Page4.3.2.1</string>
-			<string>CN_Symbicort_S_Page4.3.1_ExperimentDesign</string>
-			<string>CN_Symbicort_S_Page4.3_Table2</string>
-			<string>CN_Symbicort_S_Page4.2.4_AQLQs</string>
-			<string>CN_Symbicort_S_Page4.2.2.2</string>
-			<string>CN_Symbicort_S_Page4.2.2.1</string>
-			<string>CN_Symbicort_S_Page4.2.1_ExperimentDesign</string>
-			<string>CN_Symbicort_S_Page4.2_Table1</string>
-			<string>CN_Symbicort_S_Page4.1_PopUp</string>
-			<string>CN_Symbicort_S_Page4.1</string>
-			<string>CN_Symbicort_S_Page3.2_PopUp</string>
-			<string>CN_Symbicort_S_Page3.2</string>
-			<string>CN_Symbicort_S_Page3.1_PopUp</string>
-			<string>CN_Symbicort_S_Page3.1</string>
-			<string>CN_Symbicort_S_Page2.3_PopUp</string>
-			<string>CN_Symbicort_S_Page2.3_ExperimentDesign</string>
-			<string>CN_Symbicort_S_Page2.3</string>
-			<string>CN_Symbicort_S_Page2.2_PopUp</string>
-			<string>CN_Symbicort_S_Page2.2</string>
-			<string>CN_Symbicort_S_Page2.1</string>
-			<string>CN_Symbicort_S_Page1.4_PopUp</string>
-			<string>CN_Symbicort_S_Page1.4</string>
-			<string>CN_Symbicort_S_Page1.3_PopUp</string>
-			<string>CN_Symbicort_S_Page1.3</string>
-			<string>CN_Symbicort_S_Page1.2_PopUp</string>
-			<string>CN_Symbicort_S_Page1.2</string>
-			<string>CN_Symbicort_S_Page1.1</string>
-			<string>CN_Symbicort_S_CN_Page0</string>
 			<string>CN_Symbicort_N_Demo_Menu</string>
 			<string>CN_Symbicort_D_Video4</string>
 			<string>CN_Symbicort_D_Video3</string>
 			<string>CN_Symbicort_D_Video2</string>
 			<string>CN_Symbicort_D_Video1</string>
-			<string>CN_Symbicort_D_Label</string>
 		</array>
 	</dict>
 </dict>

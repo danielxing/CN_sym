@@ -1,0 +1,120 @@
+body {
+	margin:0;
+	padding:0;
+	width:1024px;
+	height:768px;
+}
+
+#contentContainer {
+	position:absolute;
+	background-color:#9DCDE6;
+	width:1024px;
+	height:768px;
+}
+
+#label {
+	position:absolute;
+	top:588px;
+	left:900px;
+}
+
+#topBar {
+	position:absolute;
+	background-color:#03508C;
+	width:1024px;
+	height:68px;
+}
+
+#title {
+	position:absolute;
+	background-image:url('../images/title.png');
+	width:94px;
+	height:23px;
+	top:20px;
+	left:15px;
+}
+
+#bottomBar {
+	position:absolute;
+	background-color:#03508C;
+	bottom:0px;
+	width:1024px;
+	height:96px;
+}
+
+#box {
+	position:absolute;
+	background-image:url('../images/background.png');
+	width:855px;
+	height:518px;
+	top:115px;
+	left:84px;
+}
+
+#man {
+	position:absolute;
+	background-image:url('../images/man.png');
+	width:164px;
+	height:297px;
+	top:80px;
+	left:215px;
+	opacity:0;
+}
+
+#outsidecircle {
+	position:absolute;
+	background-image:url('../images/shadow.png');
+	width:311px;
+	height:311px;
+	top:80px;
+	left:330px;
+	opacity:0;
+}
+
+#circle {
+	position:absolute;
+	background-image:url('../images/circle.png');
+	width:277px;
+	height:277px;
+	top:92px;
+	left:341px;
+	opacity:0;
+}
+
+#insidecircle {
+	position:absolute;
+	background-image:url('../images/insidecircle.png');
+	width:147px;
+	height:147px;
+	top:162px;
+	left:412px;
+	opacity:0;
+}
+
+#elements {
+	position:absolute;
+	background-image:url('../images/elements.png');
+	width:215px;
+	height:222px;
+	top:120px;
+	left:372px;
+	opacity:0;
+}
+
+#text {
+	position:absolute;
+	background-image:url('../images/text.png');
+	width:385px;
+	height:110px;
+	top:400px;
+	left:235px;
+	opacity:0;
+}
+
+#slideToSeeMore
+{
+    position:absolute;
+	top:488px;
+	left:947px;
+
+}

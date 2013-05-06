@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+	<script type="text/javascript" src="./js/DOMAttribute.js"></script>
+	<script type="text/javascript" src="./js/webitCSSAnimate.js"></script>
+        <script type="text/javascript" src="resource:js/noClickDelay.js"></script>
+	
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar">
+			<div id="title"></div>
+		</div>
+		
+		<div id="tab" class="table1">	
+			<div id="tab1" ontouchstart="SystemBridge.goToSlide('信必可有效达到OAC::哮喘总体控制目标');"></div>
+			<div id="tab2"></div>
+			<div id="tab3"></div>
+		</div>
+		
+		<div id="box">
+
+			<div id="content1">
+				<div id=bars>
+					<div id="grey"></div>
+					<div id="red"></div>
+					<div id="arrow">
+						<div id="number"></div>
+					</div>
+				</div>
+				<div id="button" ontouchstart="SystemBridge.goToSlide('Page4.3.1 ExperimentDesign');"></div>
+				
+			</div>
+			
+			<div id="content2">
+				<div id="graph1" ontouchstart="SystemBridge.goToSlide('Page4.3.2.1');"></div>
+				<div id="graph2" ontouchstart="SystemBridge.goToSlide('Page4.3.2.2');"></div>
+			</div>
+		</div>
+		
+		<div id="bottomBar"></div>
+		
+	</div>
+</body>
+
+<script type="text/javascript">
+
+	
+	var msecs = 300;
+	var counter = 0; 
+	var timer2=null;
+	
+	function animate(value){
+		//alert(value);
+		if((value)&&(value != "nil")) {
+            eval(value+"()");
+        }
+        else {
+            
+            eval("tableAnimation1()");
+        }
+
+	}
+	
+	function gotFocus(){
+		
+
+		
+		SystemBridge.requestSessionValue("tableAnimation","animate");
+		
+		document.getElementById('tab2').addEventListener('touchstart',function(){
+			
+			tableAnimation1();
+			
+		},false);
+		
+		document.getElementById('tab3').addEventListener('touchstart',function(){
+			
+			tableAnimation2();
+			
+		},false);
+	}
+	
+	function lostFocus(){
+		document.getElementById('content2').style.display="none";
+		document.getElementById('content1').style.display="none";
+	}
+	
+	function tableAnimation2() {
+		document.getElementById('tab').className="table3";
+		document.getElementById('content2').style.display="block";
+		document.getElementById('content1').style.display="none";
+	}
+	
+	function tableAnimation1() {
+		document.getElementById('tab').className="table2";
+		document.getElementById('content1').style.display="block";
+		document.getElementById('content2').style.display="none";
+		
+		document.getElementById('grey').unanimate().css({"height":"0px"});
+		document.getElementById('red').unanimate().css({"height":"0px"});
+		document.getElementById('arrow').unanimate().css({"opacity":0});
+		document.getElementById('number').unanimate().css({"opacity":0});
+		
+		setTimeout(function(){
+			if(timer2){clearTimeout(timer2);}
+			document.getElementById('grey').animate({"height":[216+"px","ease-out",1000]},800,function(){
+				document.getElementById('red').animate({"height":[140+"px","ease-out",1000]},10,function(){
+					document.getElementById('arrow').animate({"opacity":[1,"ease-in",500]},10,function(){
+						document.getElementById('number').animate({"opacity":[1,"ease-in",10]},10,function(){});
+					});
+				});
+			});
+	
+		},0);
+	}
+	
+		
+	</script>
+</html>

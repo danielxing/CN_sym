@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link href="css/universal.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resource:js/SystemBridge.js">
+</script>
+    <script type="text/javascript" src="./js/DOMAttribute.js">
+</script>
+    <script type="text/javascript" src="./js/webitCSSAnimate.js">
+</script>
+	<script type="text/javascript" src="resource:js/noClickDelay.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+    <div id="contentContainer">
+    <div id="topBar">
+        <div id="title"></div>
+    </div>
+
+    <div id="bg">
+        <div id="title1"></div>
+
+        <div id="pic1b"></div>
+        
+        <div id="title2"></div>
+        <div id="title2icon"></div>
+        
+        <div id="pic2b"></div>
+        
+            <div id="button1" ontouchstart="SystemBridge.setSessionValue('tableAnimation','tableAnimation1');SystemBridge.goToSlide('信必可有效达到OAC::达到当前控制');"></div>
+            <div id="button2" ontouchstart="SystemBridge.setSessionValue('tableAnimation','tableAnimation2');SystemBridge.goToSlide('信必可有效达到OAC::达到当前控制');"></div>
+            <div id="button3" ontouchstart="SystemBridge.setSessionValue('tableAnimation','tableAnimation3');SystemBridge.goToSlide('信必可有效达到OAC::达到当前控制');"></div>
+            <div id="button4" ontouchstart="SystemBridge.setSessionValue('tableAnimation','tableAnimation4');SystemBridge.goToSlide('信必可有效达到OAC::达到当前控制');"></div>
+            <div id="button5" ontouchstart="SystemBridge.setSessionValue('tableAnimation','tableAnimation1');SystemBridge.goToSlide('信必可有效达到OAC::达到当前控制');"></div>
+            <div id="button6" ontouchstart="SystemBridge.setSessionValue('tableAnimation','tableAnimation2');SystemBridge.goToSlide('信必可有效达到OAC::达到当前控制');"></div>
+
+    </div>
+
+    <div id="bottomBar"></div><img id="label" src="package://CN_Symbicort_D_Label/label.png"></div><script type="text/javascript">
+
+        var state = 0;
+        
+        
+        var handler = function() {
+//            alert("state "+state);
+	        if(!state) {
+                //                                                       alert(document.getElementById('button1').style.display );
+                //                                                       if( document.getElementById('button1').style.display != "block"){
+		        document.getElementById('title1').hide(300,10,function(){
+                                                       document.getElementById('title1').css({"display":"none"});
+                                                       });
+			    document.getElementById('pic1b').hide(300,10,function(){
+                                                      document.getElementById('pic1b').css({"display":"none"});
+                                                      
+                                                      });
+                state = 1;
+                
+                //                                                        alert("alert "+document.getElementById('button1'));
+                document.getElementById('title2').css({"display":"block"});
+                document.getElementById('title2').show(500,300);
+                
+                document.getElementById('title2icon').css({"display":"block"});
+                document.getElementById('title2icon').show(500,300);
+                
+                document.getElementById('pic2b').css({"display":"block"});
+                document.getElementById('pic2b').show(500,300);
+                
+                
+                //              setTimeout(function(){
+                document.getElementById('button1').css({"display":"block"});
+                
+                document.getElementById('button2').css({"display":"block"});
+                document.getElementById('button3').css({"display":"block"});
+                document.getElementById('button4').css({"display":"block"});
+                document.getElementById('button5').css({"display":"block"});
+                document.getElementById('button6').css({"display":"block"});
+                //			},0);
+                
+                
+                
+                
+			}
+            else {
+                document.getElementById('title2').hide(300,10,function(){
+                                                       document.getElementById('title2').css({"display":"none"});
+                                                       });
+			    document.getElementById('title2icon').hide(300,10,function(){
+                                                           document.getElementById('title2icon').css({"display":"none"});
+                                                           });
+                
+				document.getElementById('pic2b').hide(300,10,function(){
+                                                      document.getElementById('pic2b').css({"display":"none"});
+                                                      
+                                                      
+                                                      });
+                
+                state = 0;
+                
+                document.getElementById('title1').css({"display":"block"});
+                document.getElementById('title1').show(500,300);
+                
+                document.getElementById('pic1b').css({"display":"block"});
+                document.getElementById('pic1b').show(500,300);
+                
+                document.getElementById('button1').css({"display":"none"});
+                document.getElementById('button2').css({"display":"none"});
+                document.getElementById('button3').css({"display":"none"});
+                document.getElementById('button4').css({"display":"none"});
+                document.getElementById('button5').css({"display":"none"});
+                document.getElementById('button6').css({"display":"none"});
+	            
+            }                               
+
+        };
+//        new NoClickDelay('fastClick');
+    function gotFocus(){
+        
+        
+        document.getElementById('title2').css({"display":"none","opacity":0});
+        
+		document.getElementById('title2icon').css({"display":"none","opacity":0});
+        
+		document.getElementById('pic2b').css({"display":"none","opacity":0});
+        
+        
+        
+        document.getElementById('title1').css({"display":"block","opacity":1});
+        
+        
+        document.getElementById('pic1b').css({"display":"block","opacity":1});
+        
+        
+        document.getElementById('button1').css({"display":"none"});
+        document.getElementById('button2').css({"display":"none"});
+        document.getElementById('button3').css({"display":"none"});
+        document.getElementById('button4').css({"display":"none"});
+        document.getElementById('button5').css({"display":"none"});
+        document.getElementById('button6').css({"display":"none"});
+        
+
+
+        state = 0;
+        document.getElementById('bg').addEventListener('touchstart',handler,false);
+
+    }
+
+    function lostFocus(){
+
+//        alert("lost");
+    
+    	document.getElementById('title2').css({"display":"none","opacity":0});
+   	
+		document.getElementById('title2icon').css({"display":"none","opacity":0});
+				   
+		document.getElementById('pic2b').css({"display":"none","opacity":0});
+				   
+				
+				   
+	  document.getElementById('title1').css({"display":"block","opacity":1});
+
+      
+      document.getElementById('pic1b').css({"display":"block","opacity":1});
+
+      
+      document.getElementById('button1').css({"display":"none"});
+      document.getElementById('button2').css({"display":"none"});
+      document.getElementById('button3').css({"display":"none"});
+      document.getElementById('button4').css({"display":"none"});
+      document.getElementById('button5').css({"display":"none"});
+      document.getElementById('button6').css({"display":"none"});
+        
+        document.getElementById('bg').removeEventListener('touchstart',handler,false);
+        
+        state = 0;
+    }
+
+
+        
+    </script>
+</body>
+</html>

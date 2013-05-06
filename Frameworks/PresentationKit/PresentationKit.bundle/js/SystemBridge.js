@@ -21,6 +21,7 @@ var SystemBridge =
 		var cmdStr = "system://pdfViewer:" + this.relativeToAbsolutePath(localPath) + "?title=" + encodeURIComponent(title);
 		if (trackingMessage)
 			cmdStr += "&trackingMessage=" + encodeURIComponent(trackingMessage);
+//        alert(cmdStr);
 		this.executeSystemCommand(cmdStr);
 	},
 
@@ -112,6 +113,8 @@ var SystemBridge =
 	goToSlide : function(slide)
 	{
 		var cmdStr = "mainView://section:" + encodeURIComponent(slide);
+        
+//        alert(slide+" ||| "+cmdStr);
 		this.executeSystemCommand(cmdStr);
 	},
 

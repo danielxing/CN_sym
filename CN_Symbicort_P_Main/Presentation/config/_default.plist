@@ -26,292 +26,371 @@
 	</dict>
 	<key>ActiveCall</key>
 	<array>
-		<string>Page0</string>
-		<string>Page1::Page1.1</string>
-		<string>Page2::Page2.1</string>
-		<string>Page3::Page3.1</string>
-		<string>Page4::Page4.1</string>
-		<string>Page5::Page5.1</string>
-		<string>Page6.1</string>
-		<string>Page7.1</string>
-		<string>Page8.0 Survey</string>
+		<string>主页</string>
+		<string>患者特征::选择画面</string>
+		<string>2吸起始更好疗效::方案选择</string>
+		<string>2吸使用时间::GIMA建议</string>
+		<string>信必可有效达到OAC::哮喘总体控制目标</string>
+		<string>独特的药理::卓越组合</string>
+		<string>药物经济学</string>
+		<string>优秀的都保装置</string>
 	</array>
 	<key>Slides</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Page0</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_CN_Page0</string>
+			<string>主页</string>
+			<key>URL</key>
+			<string>CN_Symbicort_S_CN_Page0/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_CN_Page0/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Page1</string>
+			<string>患者特征</string>
 			<key>Subcontent</key>
 			<array>
 				<dict>
 					<key>Title</key>
-					<string>Page1.1</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page1.1</string>
+					<string>选择画面</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page1.1/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page1.1/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page1.2</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page1.2</string>
+					<string>中重度患者</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page1.2/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page1.2/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page1.3</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page1.3</string>
+					<string>哮喘关键症状</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page1.3/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page1.3/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page1.4</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page1.4</string>
+					<string>哮喘评估</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page1.4/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page1.4/L_preview.png</string>
 				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page1.2 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page1.2_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page1.2_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page1.2_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page1.3 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page1.3_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page1.3_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page1.3_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page1.4 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page1.4_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page1.4_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page1.4_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Page2</string>
+			<string>2吸起始更好疗效</string>
 			<key>Subcontent</key>
 			<array>
 				<dict>
 					<key>Title</key>
-					<string>Page2.1</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page2.1</string>
+					<string>方案选择</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page2.1/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page2.1/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page2.2</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page2.2</string>
+					<string>EuroSMART</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page2.2/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page2.2/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page2.3</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page2.3</string>
+					<string>AHEAD研究</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page2.3/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page2.3/L_preview.png</string>
 				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page2.2 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page2.2_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page2.2_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page2.2_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page2.3 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page2.3_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page2.3_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page2.3_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page2.3 ExperimentDesign</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page2.3_ExperimentDesign</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page2.3_ExperimentDesign/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page2.3_ExperimentDesign/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Page3</string>
+			<string>2吸使用时间</string>
 			<key>Subcontent</key>
 			<array>
 				<dict>
 					<key>Title</key>
-					<string>Page3.1</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page3.1</string>
+					<string>GIMA建议</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page3.1/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page3.1/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page3.2</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page3.2</string>
+					<string>剂量调整</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page3.2/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page3.2/L_preview.png</string>
 				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page3.1 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page3.1_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page3.1_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page3.1_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page3.2 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page3.2_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page3.2_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page3.2_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Page4</string>
+			<string>信必可有效达到OAC</string>
 			<key>Subcontent</key>
 			<array>
 				<dict>
 					<key>Title</key>
-					<string>Page4.1</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page4.1</string>
+					<string>哮喘总体控制目标</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page4.1/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page4.1/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page4.2 Table1</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page4.2_Table1</string>
+					<string>达到当前控制</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page4.2_Table1/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page4.2_Table1/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page4.3 Table2</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page4.3_Table2</string>
+					<string>减少急性哮喘</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page4.3_Table2/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page4.3_Table2/L_preview.png</string>
 				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page4.1 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page4.1_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page4.1_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page4.1_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page4.2.1 ExperimentDesign</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page4.2.1_ExperimentDesign</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page4.2.1_ExperimentDesign/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page4.2.1_ExperimentDesign/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page4.2.2.1</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page4.2.2.1</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page4.2.2.1/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page4.2.2.1/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page4.2.2.2</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page4.2.2.2</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page4.2.2.2/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page4.2.2.2/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page4.2.4 AQLQs</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page4.2.4_AQLQs</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page4.2.4_AQLQs/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page4.2.4_AQLQs/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page4.3.1 ExperimentDesign</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page4.3.1_ExperimentDesign</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page4.3.1_ExperimentDesign/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page4.3.1_ExperimentDesign/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page4.3.2.1</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page4.3.2.1</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page4.3.2.1/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page4.3.2.1/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page4.3.2.2</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page4.3.2.2</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page4.3.2.2/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page4.3.2.2/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Page5.1</string>
+			<string>独特的药理</string>
 			<key>Subcontent</key>
 			<array>
 				<dict>
 					<key>Title</key>
-					<string>Page5.1</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page5.1</string>
+					<string>卓越组合</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page5.1/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page5.1/L_preview.png</string>
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>Page5.2 Table3</string>
-					<key>AssetID</key>
-					<string>CN_Symbicort_S_Page5.2_Table3</string>
+					<string>福莫特罗</string>
+					<key>URL</key>
+					<string>CN_Symbicort_S_Page5.2_Table3/index.html</string>
+					<key>Landscape Preview</key>
+					<string>CN_Symbicort_S_Page5.2_Table3/L_preview.png</string>
 				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page5.1 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page5.1_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page5.1_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page5.1_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page5.1 VideoPopUp1</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page5.1_VideoPopUp1</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp1/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp1/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page5.1 VideoPopUp2</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page5.1_VideoPopUp2</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp2/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp2/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page5.1 VideoPopUp3</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page5.1_VideoPopUp3</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp3/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page5.1_VideoPopUp3/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Page6.1</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page6.1</string>
+			<string>药物经济学</string>
+			<key>URL</key>
+			<string>CN_Symbicort_S_Page6.1/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page6.1/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page6.1 PopUp</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page6.1_PopUp</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page6.1_PopUp/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page6.1_PopUp/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Page7.1</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page7.1</string>
+			<string>优秀的都保装置</string>
+			<key>URL</key>
+			<string>CN_Symbicort_S_Page7.1/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page7.1/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page8.0 Survey</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page8.0_Survey</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page8.0_Survey/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page8.0_Survey/L_preview.png</string>
 		</dict>
 		<dict>
 			<key>Title</key>
 			<string>Page8.0 Survey Results</string>
-			<key>AssetID</key>
-			<string>CN_Symbicort_S_Page8.0_SurveyResult</string>
+			<key>PopUp</key>
+			<string>CN_Symbicort_S_Page8.0_SurveyResult/index.html</string>
+			<key>Landscape Preview</key>
+			<string>CN_Symbicort_S_Page8.0_SurveyResult/L_preview.png</string>
 		</dict>
 	</array>
 </dict>

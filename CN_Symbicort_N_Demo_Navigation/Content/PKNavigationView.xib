@@ -42,6 +42,7 @@
 						<int key="NSvFlags">-2147483359</int>
 						<string key="NSFrame">{{800, 2}, {200, 31}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="193771782"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -78,6 +79,7 @@
 						<int key="NSvFlags">289</int>
 						<string key="NSFrame">{{904, 20}, {100, 21}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="226409711"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor" id="292309983">
@@ -97,23 +99,40 @@
 									<object class="IBUIImageView" id="802079899">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">274</int>
-										<string key="NSFrameSize">{1024, 120}</string>
+										<string key="NSFrameSize">{1024, 96}</string>
 										<reference key="NSSuperview" ref="326295810"/>
+										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="688709849"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<bool key="IBUIMultipleTouchEnabled">YES</bool>
 										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 										<object class="NSCustomResource" key="IBUIImage">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Brilinta-footer-background.png</string>
+											<string key="NSResourceName">SymbicortBlueBackground.png</string>
+										</object>
+									</object>
+									<object class="IBUIImageView" id="554939018">
+										<reference key="NSNextResponder" ref="326295810"/>
+										<int key="NSvFlags">292</int>
+										<string key="NSFrame">{{30, 60}, {962, 38}}</string>
+										<reference key="NSSuperview" ref="326295810"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="594673316"/>
+										<string key="NSReuseIdentifierKey">_NS:9</string>
+										<bool key="IBUIUserInteractionEnabled">NO</bool>
+										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+										<object class="NSCustomResource" key="IBUIImage">
+											<string key="NSClassName">NSImage</string>
+											<string key="NSResourceName">SymbicortShadowBackground.png</string>
 										</object>
 									</object>
 									<object class="IBUIButton" id="688709849">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{27, 3}, {69, 118}}</string>
+										<string key="NSFrame">{{30, 24}, {37, 38}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
-										<reference key="NSNextKeyView" ref="594673316"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="554939018"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<int key="IBUIContentMode">1</int>
 										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -139,15 +158,11 @@
 											<int key="NSColorSpace">3</int>
 											<bytes key="NSWhite">MC41AA</bytes>
 										</object>
-										<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage" id="34731354">
+										<object class="NSCustomResource" key="IBUIHighlightedImage" id="927313999">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Brilinta-btn-home-on.png</string>
+											<string key="NSResourceName">SymbicortHomeButton.png</string>
 										</object>
-										<reference key="IBUISelectedBackgroundImage" ref="34731354"/>
-										<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Brilinta-btn-home.png</string>
-										</object>
+										<reference key="IBUINormalImage" ref="927313999"/>
 										<object class="IBUIFontDescription" key="IBUIFontDescription" id="1000933873">
 											<string key="name">Helvetica-Bold</string>
 											<string key="family">Helvetica</string>
@@ -163,9 +178,10 @@
 									<object class="IBUIButton" id="594673316">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{98, 3}, {81, 118}}</string>
+										<string key="NSFrame">{{69, 24}, {81, 38}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
-										<reference key="NSNextKeyView" ref="667928909"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="165190460"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
 											<string key="IBUIAccessibilityLabel">Menu</string>
@@ -181,14 +197,9 @@
 											<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 										</object>
 										<reference key="IBUINormalTitleShadowColor" ref="933863584"/>
-										<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage" id="249963104">
+										<object class="NSCustomResource" key="IBUINormalImage">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Brilinta-btn-menu-on.png</string>
-										</object>
-										<reference key="IBUISelectedBackgroundImage" ref="249963104"/>
-										<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Brilinta-btn-menu.png</string>
+											<string key="NSResourceName">SymbicortNavigationButton.png</string>
 										</object>
 										<reference key="IBUIFontDescription" ref="1000933873"/>
 										<reference key="IBUIFont" ref="257660403"/>
@@ -196,8 +207,70 @@
 									<object class="IBUIButton" id="667928909">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{181, 3}, {68, 118}}</string>
+										<string key="NSFrame">{{849, 24}, {37, 37}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="1048541200"/>
+										<bool key="IBUIOpaque">NO</bool>
+										<int key="IBUIContentMode">1</int>
+										<int key="IBUITag">12</int>
+										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+										<int key="IBUIContentHorizontalAlignment">0</int>
+										<int key="IBUIContentVerticalAlignment">0</int>
+										<bool key="IBUIAdjustsImageWhenHighlighted">NO</bool>
+										<reference key="IBUIHighlightedTitleColor" ref="595064324"/>
+										<reference key="IBUISelectedTitleColor" ref="595064324"/>
+										<object class="NSColor" key="IBUINormalTitleColor">
+											<int key="NSColorSpace">1</int>
+											<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+										</object>
+										<reference key="IBUINormalTitleShadowColor" ref="933863584"/>
+										<object class="NSCustomResource" key="IBUINormalImage">
+											<string key="NSClassName">NSImage</string>
+											<string key="NSResourceName">SymbicortPIButton.png</string>
+										</object>
+										<object class="NSCustomResource" key="IBUISelectedBackgroundImage" id="440359003">
+											<string key="NSClassName">NSImage</string>
+											<string key="NSResourceName">Brilinta-btn-pi-on.png</string>
+										</object>
+										<reference key="IBUIFontDescription" ref="1000933873"/>
+										<reference key="IBUIFont" ref="257660403"/>
+									</object>
+									<object class="IBUIButton" id="165190460">
+										<reference key="NSNextResponder" ref="326295810"/>
+										<int key="NSvFlags">292</int>
+										<string key="NSFrame">{{801, 24}, {47, 37}}</string>
+										<reference key="NSSuperview" ref="326295810"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="667928909"/>
+										<bool key="IBUIOpaque">NO</bool>
+										<int key="IBUIContentMode">1</int>
+										<int key="IBUITag">12</int>
+										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+										<int key="IBUIContentHorizontalAlignment">0</int>
+										<int key="IBUIContentVerticalAlignment">0</int>
+										<bool key="IBUIAdjustsImageWhenHighlighted">NO</bool>
+										<reference key="IBUIHighlightedTitleColor" ref="595064324"/>
+										<reference key="IBUISelectedTitleColor" ref="595064324"/>
+										<object class="NSColor" key="IBUINormalTitleColor">
+											<int key="NSColorSpace">1</int>
+											<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+										</object>
+										<reference key="IBUINormalTitleShadowColor" ref="933863584"/>
+										<object class="NSCustomResource" key="IBUINormalImage">
+											<string key="NSClassName">NSImage</string>
+											<string key="NSResourceName">SymbicortBookButton.png</string>
+										</object>
+										<reference key="IBUISelectedBackgroundImage" ref="440359003"/>
+										<reference key="IBUIFontDescription" ref="1000933873"/>
+										<reference key="IBUIFont" ref="257660403"/>
+									</object>
+									<object class="IBUIButton" id="1048541200">
+										<reference key="NSNextResponder" ref="326295810"/>
+										<int key="NSvFlags">292</int>
+										<string key="NSFrame">{{886, 24}, {59, 37}}</string>
+										<reference key="NSSuperview" ref="326295810"/>
+										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="791847223"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<int key="IBUIContentMode">1</int>
@@ -213,24 +286,20 @@
 											<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 										</object>
 										<reference key="IBUINormalTitleShadowColor" ref="933863584"/>
-										<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage" id="1758773">
+										<object class="NSCustomResource" key="IBUINormalImage">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Brilinta-btn-pi-on.png</string>
+											<string key="NSResourceName">SymbicortInquiryButton.png</string>
 										</object>
-										<reference key="IBUISelectedBackgroundImage" ref="1758773"/>
-										<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">Brilinta-btn-pi.png</string>
-										</object>
+										<reference key="IBUISelectedBackgroundImage" ref="440359003"/>
 										<reference key="IBUIFontDescription" ref="1000933873"/>
 										<reference key="IBUIFont" ref="257660403"/>
 									</object>
 									<object class="IBUIButton" id="791847223">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{969, 16}, {65, 50}}</string>
+										<string key="NSFrame">{{946, 24}, {47, 37}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
-										<reference key="NSNextKeyView" ref="806600304"/>
+										<reference key="NSWindow"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIOpaque">NO</bool>
 										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -242,14 +311,9 @@
 											<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 										</object>
 										<reference key="IBUINormalTitleShadowColor" ref="933863584"/>
-										<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage" id="568686046">
+										<object class="NSCustomResource" key="IBUINormalImage">
 											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">NavLayerShort_exit_active.png</string>
-										</object>
-										<reference key="IBUISelectedBackgroundImage" ref="568686046"/>
-										<object class="NSCustomResource" key="IBUINormalBackgroundImage">
-											<string key="NSClassName">NSImage</string>
-											<string key="NSResourceName">NavLayerShort_exit_inactive.png</string>
+											<string key="NSResourceName">SymbicortRebackButton.png</string>
 										</object>
 										<object class="IBUIFontDescription" key="IBUIFontDescription">
 											<int key="type">2</int>
@@ -258,8 +322,9 @@
 										<reference key="IBUIFont" ref="257660403"/>
 									</object>
 								</array>
-								<string key="NSFrame">{{0, 85}, {1024, 107}}</string>
+								<string key="NSFrame">{{0, 87}, {1024, 96}}</string>
 								<reference key="NSSuperview" ref="226409711"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="802079899"/>
 								<string key="NSReuseIdentifierKey">_NS:10</string>
 								<reference key="IBUIBackgroundColor" ref="292309983"/>
@@ -268,12 +333,13 @@
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
-							<object class="IBUIImageView" id="806600304">
+							<object class="IBUIImageView" id="1062033116">
 								<reference key="NSNextResponder" ref="226409711"/>
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{900, 0}, {86, 87}}</string>
 								<reference key="NSSuperview" ref="226409711"/>
-								<reference key="NSNextKeyView"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="326295810"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -283,9 +349,10 @@
 								</object>
 							</object>
 						</array>
-						<string key="NSFrame">{{0, 577}, {1024, 191}}</string>
+						<string key="NSFrame">{{0, 585}, {1024, 183}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSNextKeyView" ref="326295810"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="1062033116"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="292309983"/>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -299,8 +366,10 @@
 								<int key="NSvFlags">274</int>
 								<string key="NSFrameSize">{1024, 670}</string>
 								<reference key="NSSuperview" ref="741025376"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="657131570"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<float key="IBUIAlpha">0.80000001192092896</float>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
@@ -310,6 +379,7 @@
 						</array>
 						<string key="NSFrameSize">{1024, 670}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="868889892"/>
 						<reference key="IBUIBackgroundColor" ref="292309983"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -318,6 +388,7 @@
 				</array>
 				<string key="NSFrameSize">{1024, 768}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="741025376"/>
 				<reference key="IBUIBackgroundColor" ref="292309983"/>
 				<bool key="IBUIOpaque">NO</bool>
@@ -480,6 +551,22 @@
 					<int key="connectionID">458</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">BookButton</string>
+						<reference key="source" ref="551791104"/>
+						<reference key="destination" ref="165190460"/>
+					</object>
+					<int key="connectionID">473</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">SurveyButton</string>
+						<reference key="source" ref="551791104"/>
+						<reference key="destination" ref="1048541200"/>
+					</object>
+					<int key="connectionID">474</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">closeButtonPressed:</string>
 						<reference key="source" ref="791847223"/>
@@ -487,6 +574,24 @@
 						<int key="IBEventType">7</int>
 					</object>
 					<int key="connectionID">456</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">executeJavascriptAction:</string>
+						<reference key="source" ref="165190460"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">469</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">executeJavascriptAction:</string>
+						<reference key="source" ref="1048541200"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">472</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -555,7 +660,7 @@
 						<reference key="object" ref="226409711"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="326295810"/>
-							<reference ref="806600304"/>
+							<reference ref="1062033116"/>
 						</array>
 						<reference key="parent" ref="766721923"/>
 						<string key="objectName">BottomContainerView</string>
@@ -569,6 +674,9 @@
 							<reference ref="802079899"/>
 							<reference ref="594673316"/>
 							<reference ref="667928909"/>
+							<reference ref="554939018"/>
+							<reference ref="165190460"/>
+							<reference ref="1048541200"/>
 						</array>
 						<reference key="parent" ref="226409711"/>
 						<string key="objectName">Footer View</string>
@@ -605,8 +713,25 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">466</int>
-						<reference key="object" ref="806600304"/>
+						<reference key="object" ref="1062033116"/>
 						<reference key="parent" ref="226409711"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">467</int>
+						<reference key="object" ref="554939018"/>
+						<reference key="parent" ref="326295810"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">468</int>
+						<reference key="object" ref="165190460"/>
+						<reference key="parent" ref="326295810"/>
+						<string key="objectName">Button - Book</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">471</int>
+						<reference key="object" ref="1048541200"/>
+						<reference key="parent" ref="326295810"/>
+						<string key="objectName">Button - Survey</string>
 					</object>
 				</array>
 			</object>
@@ -616,16 +741,16 @@
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="114.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="2" key="114.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="114.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="2.CustomClassName">PKNavigationView</string>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="237.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="239.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="251.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="254.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="1" key="254.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="3" key="254.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="257.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="257.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="2" key="257.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="262.CustomClassName">PKBreadcrumbView</string>
 				<string key="262.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="273.CustomClassName">NavigationOutlets</string>
@@ -636,14 +761,264 @@
 				<real value="0.0" key="455.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="457.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="466.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="467.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="468.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="0.0" key="468.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<string key="471.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="0.0" key="471.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">466</int>
+			<int key="maxID">477</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">NavigationOutlets</string>
+					<string key="superclassName">NSObject</string>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="BookButton">UIButton</string>
+						<string key="HomeButton">UIButton</string>
+						<string key="PIButton">UIButton</string>
+						<string key="SurveyButton">UIButton</string>
+						<string key="bottomContainerView">UIView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="BookButton">
+							<string key="name">BookButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="HomeButton">
+							<string key="name">HomeButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="PIButton">
+							<string key="name">PIButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="SurveyButton">
+							<string key="name">SurveyButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="bottomContainerView">
+							<string key="name">bottomContainerView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/NavigationOutlets.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">PKBreadcrumbView</string>
+					<string key="superclassName">UIView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/PKBreadcrumbView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">PKNavigationView</string>
+					<string key="superclassName">UIControl</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="attitudinalButtonPressed:">id</string>
+						<string key="briefcasePressed:">id</string>
+						<string key="buttonPressed:">UIButton</string>
+						<string key="closeButtonPressed:">id</string>
+						<string key="executeJavascriptAction:">id</string>
+						<string key="homeButtonPressed:">id</string>
+						<string key="lockSliderTouchEnd:">id</string>
+						<string key="piButtonPressed:">id</string>
+						<string key="showDoctorsPressed:">id</string>
+						<string key="signPressed:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="attitudinalButtonPressed:">
+							<string key="name">attitudinalButtonPressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="briefcasePressed:">
+							<string key="name">briefcasePressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="buttonPressed:">
+							<string key="name">buttonPressed:</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBActionInfo" key="closeButtonPressed:">
+							<string key="name">closeButtonPressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="executeJavascriptAction:">
+							<string key="name">executeJavascriptAction:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="homeButtonPressed:">
+							<string key="name">homeButtonPressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="lockSliderTouchEnd:">
+							<string key="name">lockSliderTouchEnd:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="piButtonPressed:">
+							<string key="name">piButtonPressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="showDoctorsPressed:">
+							<string key="name">showDoctorsPressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="signPressed:">
+							<string key="name">signPressed:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="attitudinalButtonNegative">UIButton</string>
+						<string key="attitudinalButtonNeutral">UIButton</string>
+						<string key="attitudinalButtonPositive">UIButton</string>
+						<string key="brandsButton">UIButton</string>
+						<string key="breadcrumbContainerView">UIView</string>
+						<string key="breadcrumbView">PKBreadcrumbView</string>
+						<string key="briefcaseButton">UIButton</string>
+						<string key="controller">UIViewController</string>
+						<string key="delegate">id</string>
+						<string key="gestureBox">UIView</string>
+						<string key="hcpFlag">UIImageView</string>
+						<string key="highlightButton">UIButton</string>
+						<string key="homeButton">UIButton</string>
+						<string key="lockSlider">UISlider</string>
+						<string key="menuButton">UIButton</string>
+						<string key="menuLocationReferenceView">UIView</string>
+						<string key="menuView">UIView</string>
+						<string key="piButton">UIButton</string>
+						<string key="slideTitle">UILabel</string>
+						<string key="thumbMap">UIView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="attitudinalButtonNegative">
+							<string key="name">attitudinalButtonNegative</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="attitudinalButtonNeutral">
+							<string key="name">attitudinalButtonNeutral</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="attitudinalButtonPositive">
+							<string key="name">attitudinalButtonPositive</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="brandsButton">
+							<string key="name">brandsButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="breadcrumbContainerView">
+							<string key="name">breadcrumbContainerView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="breadcrumbView">
+							<string key="name">breadcrumbView</string>
+							<string key="candidateClassName">PKBreadcrumbView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="briefcaseButton">
+							<string key="name">briefcaseButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="controller">
+							<string key="name">controller</string>
+							<string key="candidateClassName">UIViewController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="delegate">
+							<string key="name">delegate</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="gestureBox">
+							<string key="name">gestureBox</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="hcpFlag">
+							<string key="name">hcpFlag</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="highlightButton">
+							<string key="name">highlightButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="homeButton">
+							<string key="name">homeButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="lockSlider">
+							<string key="name">lockSlider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="menuButton">
+							<string key="name">menuButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="menuLocationReferenceView">
+							<string key="name">menuLocationReferenceView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="menuView">
+							<string key="name">menuView</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="piButton">
+							<string key="name">piButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="slideTitle">
+							<string key="name">slideTitle</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="thumbMap">
+							<string key="name">thumbMap</string>
+							<string key="candidateClassName">UIView</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toManyOutletInfosByName">
+						<object class="IBToManyOutletInfo" key="brandsButtons">
+							<string key="name">brandsButtons</string>
+							<string key="candidateClassName">UIButton</string>
+							<string key="collectionClassName">NSSet</string>
+						</object>
+						<object class="IBToManyOutletInfo" key="passThroughViews">
+							<string key="name">passThroughViews</string>
+							<string key="candidateClassName">UIView</string>
+							<string key="collectionClassName">NSArray</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/PKNavigationView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">PKPresentationViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">navigationView</string>
+						<string key="NS.object.0">PKNavigationView</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">navigationView</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">navigationView</string>
+							<string key="candidateClassName">PKNavigationView</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/PKPresentationViewController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
@@ -657,16 +1032,16 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="Brilinta-btn-home-on.png">{69, 118}</string>
-			<string key="Brilinta-btn-home.png">{69, 118}</string>
-			<string key="Brilinta-btn-menu-on.png">{81, 118}</string>
-			<string key="Brilinta-btn-menu.png">{81, 118}</string>
 			<string key="Brilinta-btn-pi-on.png">{68, 118}</string>
-			<string key="Brilinta-btn-pi.png">{68, 118}</string>
-			<string key="Brilinta-footer-background.png">{1024, 120}</string>
-			<string key="NavLayerShort_exit_active.png">{65, 50}</string>
-			<string key="NavLayerShort_exit_inactive.png">{65, 50}</string>
 			<string key="NavLayerShort_overlay.png">{1024, 979}</string>
+			<string key="SymbicortBlueBackground.png">{1024, 96}</string>
+			<string key="SymbicortBookButton.png">{47, 37}</string>
+			<string key="SymbicortHomeButton.png">{37, 38}</string>
+			<string key="SymbicortInquiryButton.png">{59, 37}</string>
+			<string key="SymbicortNavigationButton.png">{81, 38}</string>
+			<string key="SymbicortPIButton.png">{37, 37}</string>
+			<string key="SymbicortRebackButton.png">{47, 37}</string>
+			<string key="SymbicortShadowBackground.png">{962, 38}</string>
 			<string key="label.png">{87, 86}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>

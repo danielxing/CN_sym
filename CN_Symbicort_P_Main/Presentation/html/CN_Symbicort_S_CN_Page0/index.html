@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+	<link href="css/universal.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="resource:js/SystemBridge.js"></script>
+	<script type="text/javascript" src="resource:js/noClickDelay.js"></script>
+</head>
+<body>
+	<div id="contentContainer">
+		<div id="topBar"></div>
+		
+		<div id="line" class="hidden"></div>
+		
+		<div id="button1" class="hidden" ontouchstart="SystemBridge.goToSlide('患者特征::选择画面');"></div>
+		<div id="button2" class="hidden" ontouchstart="SystemBridge.goToSlide('2吸起始更好疗效::方案选择');"></div>
+		<div id="button3" class="hidden" ontouchstart="SystemBridge.goToSlide('2吸使用时间::GIMA建议');"></div>
+		<div id="button4" class="hidden" ontouchstart="SystemBridge.goToSlide('信必可有效达到OAC::哮喘总体控制目标');"></div>
+		<div id="button5" class="hidden" ontouchstart="SystemBridge.goToSlide('独特的药理::卓越组合');"></div>
+		<div id="button6" class="hidden" ontouchstart="SystemBridge.goToSlide('药物经济学');"></div>
+		<div id="button7" class="hidden" ontouchstart="SystemBridge.goToSlide('优秀的都保装置');"></div>
+		
+		<div id="doctor" class="hidden" ontouchstart="SystemBridge.goToSlide('2吸起始更好疗效::方案选择');"></div>
+		<div id="patient" class="hidden" ontouchstart="SystemBridge.goToSlide('患者特征::选择画面');"></div>
+		
+		<div id="bottomBar"></div>
+		
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+        
+        
+	
+    function gotFocus() {
+		document.getElementById('doctor').className="show";
+		document.getElementById('patient').className="show";
+		document.getElementById('line').className="show";
+		document.getElementById('button1').className="show";
+		document.getElementById('button2').className="show";
+		document.getElementById('button3').className="show";
+		document.getElementById('button4').className="show";
+		document.getElementById('button5').className="show";
+		document.getElementById('button6').className="show";
+		document.getElementById('button7').className="show";
+	}
+	
+	function lostFocus() {
+		document.getElementById('doctor').className="hidden";
+		document.getElementById('patient').className="hidden";
+		document.getElementById('line').className="hidden";
+		document.getElementById('button1').className="hidden";
+		document.getElementById('button2').className="hidden";
+		document.getElementById('button3').className="hidden";
+		document.getElementById('button4').className="hidden";
+		document.getElementById('button5').className="hidden";
+		document.getElementById('button6').className="hidden";
+		document.getElementById('button7').className="hidden";
+	}
+		
+	</script>
+</body>
+</html>
