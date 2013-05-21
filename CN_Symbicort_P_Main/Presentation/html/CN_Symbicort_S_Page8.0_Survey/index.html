@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
 	<link href="css/universal.css" rel="stylesheet" type="text/css">
 
@@ -49,9 +51,9 @@
 					vals.push(chkboxes[i].value);
 				}
 			}
-			SystemBridge.submitSurveyResponse(form.name, "purpose", vals.join(','));
+			SystemBridge.submitSurveyResponse(form.name, "重度哮喘症状首选表现", vals.join(','));
             
-//            alert(form.name+"  purpose  "+vals.join(','));
+//            alert(form.name+"  重度哮喘症状首选表现  "+vals.join(','));
 
 			// clear the form
 			form.reset();
@@ -69,27 +71,27 @@
 					<form name="sampleForm">
 						<fieldset>
 							<div>
-								<input type="checkbox" name="purpose" value="specific" id="check-1">
+								<input type="checkbox" name="purpose" value="1" id="check-1">
 								<label for="check-1" class=""></label>
 							</div>
 							<div>	
-								<input type="checkbox" name="purpose" value="general" id="check-2">
+								<input type="checkbox" name="purpose" value="2" id="check-2">
 								<label for="check-2" class=""></label>
                             </div>
 							<div>
-								<input type="checkbox" name="purpose" value="browsing" id="check-3">
+								<input type="checkbox" name="purpose" value="3" id="check-3">
 								<label for="check-3" class=""></label>
 							</div>
 							<div>
-								<input type="checkbox" name="purpose" value="purchase" id="check-4">
+								<input type="checkbox" name="purpose" value="4" id="check-4">
 								<label for="check-4" class=""></label>
 							</div>
 							<div>
-								<input type="checkbox" name="purpose" value="browsing" id="check-5">
+								<input type="checkbox" name="purpose" value="5" id="check-5">
 								<label for="check-5" class=""></label>
 							</div>
 							<div>
-								<input type="checkbox" name="purpose" value="purchase" id="check-6">
+								<input type="checkbox" name="purpose" value="6" id="check-6">
 								<label for="check-6" class=""></label>
 							</div>
 						</fieldset>

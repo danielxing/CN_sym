@@ -86,19 +86,19 @@ div#tab5 {
 }
 
 #tab.table1 {
-	background-position:0px 0px;'
+	background-position:0px 0px;
 }
 
 #tab.table2 {
-	background-position:0px -65px;'
+	background-position:0px -65px;
 }
 
 #tab.table3 {
-	background-position:0px -130px;'
+	background-position:0px -130px;
 }
 
 #tab.table4 {
-	background-position:0px -195px;'
+	background-position:0px -195px;
 }
 
 div#box.ain div#content3 div#greyline 
@@ -170,7 +170,7 @@ div#box div#content3 div#greyline {
 	position:absolute;
 	background-image:url('../images/greyline.png');
 	width:0px;
-	height:29px;
+	height:31px;
 	top:178px;
 	left:210px;
 	opacity:1;
@@ -178,14 +178,14 @@ div#box div#content3 div#greyline {
 }
 
 div#box div#content3 div#greyline.show {
-	width:369px;
+	width:368px;
 }
 
 div#box div#content3 div#redline {
 	position:absolute;
 	background-image:url('../images/redline.png');
 	width:0px;
-	height:39px;
+	height:36px;
 	top:158px;
 	left:210px;
 	opacity:1;
@@ -200,8 +200,8 @@ div#box div#content3 div#verticalline {
 	background-image:url('../images/vertical.png');
 	width:5px;
 	height:211px;
-	top:148px;
-	left:260px;
+	top:146px;
+	left:238px;
 	opacity:1;
 }
 

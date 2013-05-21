@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180E28D41712A3A100730F7E /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 180E28D21712A3A100730F7E /* Presentation */; };
 		180E2B6C1712B16B00730F7E /* CN_Symbicort_D_Video1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 180E2754171298EF00730F7E /* CN_Symbicort_D_Video1.bundle */; };
 		180E2B6D1712B16E00730F7E /* CN_Symbicort_D_Video2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 180E275B171298F000730F7E /* CN_Symbicort_D_Video2.bundle */; };
 		1810D7EF17291C820009F98D /* SymbicortBlueBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1810D7E717291C820009F98D /* SymbicortBlueBackground.png */; };
@@ -24,7 +23,9 @@
 		1894EE281728FBD200323BB9 /* label.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894EE271728FBC300323BB9 /* label.png */; };
 		18969B96173368E30083DD27 /* SYM Pharmacology Budesonide.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18969B95173368E30083DD27 /* SYM Pharmacology Budesonide.mov */; };
 		189BE9CB17280B9E0021CEC8 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */; };
+		18BE42DF173A295C001F308B /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 18BE42DE173A295C001F308B /* Presentation */; };
 		18C08AEF17375A8900DEA45E /* SymbicortPI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18C08AEE17375A8900DEA45E /* SymbicortPI.pdf */; };
+		18EF045017462A950045B8BD /* SymbicortPenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF044F17462A950045B8BD /* SymbicortPenButton.png */; };
 		18FDF30A17250A9600B6CB62 /* CN_Symbicort_P_Main.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = F9F49A2E1679188000791B9D /* CN_Symbicort_P_Main.bundle */; };
 		18FDF30C17250A9600B6CB62 /* CN_Symbicort_D_Video1.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = 180E2754171298EF00730F7E /* CN_Symbicort_D_Video1.bundle */; };
 		18FDF30D17250A9600B6CB62 /* CN_Symbicort_D_Video2.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = 180E275B171298F000730F7E /* CN_Symbicort_D_Video2.bundle */; };
@@ -32,7 +33,6 @@
 		18FDF30F17250A9600B6CB62 /* CN_Symbicort_D_Video4.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = 180E27691712996500730F7E /* CN_Symbicort_D_Video4.bundle */; };
 		18FDF31017250A9600B6CB62 /* CN_Symbicort_N_Demo_Menu.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = 180E27701712997900730F7E /* CN_Symbicort_N_Demo_Menu.bundle */; };
 		18FDF35D1725144B00B6CB62 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18FDF35C1725144B00B6CB62 /* config.plist */; };
-		18FDF365172514E000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = 18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */; };
 		92AD67CD17283FA0005FD479 /* brilinta_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD676D17283FA0005FD479 /* brilinta_button.png */; };
 		92AD67CE17283FA0005FD479 /* brilinta_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD676E17283FA0005FD479 /* brilinta_button@2x.png */; };
 		92AD67CF17283FA0005FD479 /* Brilinta-btn-access-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AD676F17283FA0005FD479 /* Brilinta-btn-access-on.png */; };
@@ -166,7 +166,6 @@
 			dstPath = Content;
 			dstSubfolderSpec = 7;
 			files = (
-				18FDF365172514E000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Content Packs */,
 				18FDF30A17250A9600B6CB62 /* CN_Symbicort_P_Main.bundle in Copy Content Packs */,
 				18FDF30C17250A9600B6CB62 /* CN_Symbicort_D_Video1.bundle in Copy Content Packs */,
 				18FDF30D17250A9600B6CB62 /* CN_Symbicort_D_Video2.bundle in Copy Content Packs */,
@@ -186,7 +185,6 @@
 		180E27691712996500730F7E /* CN_Symbicort_D_Video4.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CN_Symbicort_D_Video4.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		180E27701712997900730F7E /* CN_Symbicort_N_Demo_Menu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CN_Symbicort_N_Demo_Menu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		180E28D11712A3A100730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_P_Main/Info.plist; sourceTree = SOURCE_ROOT; };
-		180E28D21712A3A100730F7E /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Presentation; path = CN_Symbicort_P_Main/Presentation; sourceTree = SOURCE_ROOT; };
 		180E28D91712A3C300730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_D_Video1/Info.plist; sourceTree = SOURCE_ROOT; };
 		180E28DD1712A3D400730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_D_Video2/Info.plist; sourceTree = SOURCE_ROOT; };
 		180E28E11712A3E200730F7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_D_Video3/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -204,7 +202,9 @@
 		18310DFF1714049B00AE3092 /* SYM Turbuhaler Adults.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SYM Turbuhaler Adults.mp4"; path = "CN_Symbicort_D_Video4/SYM Turbuhaler Adults.mp4"; sourceTree = SOURCE_ROOT; };
 		1894EE271728FBC300323BB9 /* label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = label.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/label.png; sourceTree = SOURCE_ROOT; };
 		18969B95173368E30083DD27 /* SYM Pharmacology Budesonide.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "SYM Pharmacology Budesonide.mov"; path = "CN_Symbicort_D_Video1/SYM Pharmacology Budesonide.mov"; sourceTree = SOURCE_ROOT; };
+		18BE42DE173A295C001F308B /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Presentation; path = CN_Symbicort_P_Main/Presentation; sourceTree = SOURCE_ROOT; };
 		18C08AEE17375A8900DEA45E /* SymbicortPI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = SymbicortPI.pdf; path = CN_Symbicort_D_Video1/SymbicortPI.pdf; sourceTree = SOURCE_ROOT; };
+		18EF044F17462A950045B8BD /* SymbicortPenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SymbicortPenButton.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/SymbicortPenButton.png; sourceTree = SOURCE_ROOT; };
 		18FDF34617250E6100B6CB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Info.plist; path = CN_Symbicort_N_Demo_Menu/Info.plist; sourceTree = SOURCE_ROOT; };
 		18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CN_Symbicort_N_Demo_Navigation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FDF3521725130700B6CB62 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CN_Symbicort_N_Demo_Navigation/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -354,8 +354,8 @@
 		180E289F17129F5F00730F7E /* CN_Symbicort_P_Main */ = {
 			isa = PBXGroup;
 			children = (
+				18BE42DE173A295C001F308B /* Presentation */,
 				180E28D11712A3A100730F7E /* Info.plist */,
-				180E28D21712A3A100730F7E /* Presentation */,
 			);
 			name = CN_Symbicort_P_Main;
 			sourceTree = "<group>";
@@ -421,6 +421,7 @@
 		92AD676C17283F6E005FD479 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				18EF044F17462A950045B8BD /* SymbicortPenButton.png */,
 				1810D7E717291C820009F98D /* SymbicortBlueBackground.png */,
 				1810D7E817291C820009F98D /* SymbicortBookButton.png */,
 				1810D7E917291C820009F98D /* SymbicortHomeButton.png */,
@@ -923,6 +924,7 @@
 				1810D7F417291C820009F98D /* SymbicortPIButton.png in Resources */,
 				1810D7F517291C820009F98D /* SymbicortRebackButton.png in Resources */,
 				1810D7F617291C820009F98D /* SymbicortShadowBackground.png in Resources */,
+				18EF045017462A950045B8BD /* SymbicortPenButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,7 +947,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180E28D41712A3A100730F7E /* Presentation in Resources */,
+				18BE42DF173A295C001F308B /* Presentation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

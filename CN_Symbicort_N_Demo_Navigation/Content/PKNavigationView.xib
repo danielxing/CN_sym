@@ -181,7 +181,7 @@
 										<string key="NSFrame">{{69, 24}, {81, 38}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="165190460"/>
+										<reference key="NSNextKeyView" ref="448178839"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
 											<string key="IBUIAccessibilityLabel">Menu</string>
@@ -207,7 +207,7 @@
 									<object class="IBUIButton" id="667928909">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{849, 24}, {37, 37}}</string>
+										<string key="NSFrame">{{812, 24}, {37, 37}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="1048541200"/>
@@ -239,7 +239,7 @@
 									<object class="IBUIButton" id="165190460">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{801, 24}, {47, 37}}</string>
+										<string key="NSFrame">{{764, 24}, {47, 37}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="667928909"/>
@@ -268,7 +268,7 @@
 									<object class="IBUIButton" id="1048541200">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{886, 24}, {59, 37}}</string>
+										<string key="NSFrame">{{849, 24}, {59, 37}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="791847223"/>
@@ -297,9 +297,10 @@
 									<object class="IBUIButton" id="791847223">
 										<reference key="NSNextResponder" ref="326295810"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{946, 24}, {47, 37}}</string>
+										<string key="NSFrame">{{945, 24}, {47, 37}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
 										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIOpaque">NO</bool>
 										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -315,10 +316,35 @@
 											<string key="NSClassName">NSImage</string>
 											<string key="NSResourceName">SymbicortRebackButton.png</string>
 										</object>
-										<object class="IBUIFontDescription" key="IBUIFontDescription">
+										<object class="IBUIFontDescription" key="IBUIFontDescription" id="815182368">
 											<int key="type">2</int>
 											<double key="pointSize">15</double>
 										</object>
+										<reference key="IBUIFont" ref="257660403"/>
+									</object>
+									<object class="IBUIButton" id="448178839">
+										<reference key="NSNextResponder" ref="326295810"/>
+										<int key="NSvFlags">292</int>
+										<string key="NSFrame">{{908, 24}, {37, 37}}</string>
+										<reference key="NSSuperview" ref="326295810"/>
+										<reference key="NSWindow"/>
+										<reference key="NSNextKeyView" ref="165190460"/>
+										<string key="NSReuseIdentifierKey">_NS:9</string>
+										<bool key="IBUIOpaque">NO</bool>
+										<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+										<int key="IBUIContentHorizontalAlignment">0</int>
+										<int key="IBUIContentVerticalAlignment">0</int>
+										<reference key="IBUIHighlightedTitleColor" ref="595064324"/>
+										<object class="NSColor" key="IBUINormalTitleColor">
+											<int key="NSColorSpace">1</int>
+											<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+										</object>
+										<reference key="IBUINormalTitleShadowColor" ref="933863584"/>
+										<object class="NSCustomResource" key="IBUINormalImage">
+											<string key="NSClassName">NSImage</string>
+											<string key="NSResourceName">SymbicortPenButton.png</string>
+										</object>
+										<reference key="IBUIFontDescription" ref="815182368"/>
 										<reference key="IBUIFont" ref="257660403"/>
 									</object>
 								</array>
@@ -364,7 +390,7 @@
 							<object class="IBUIImageView" id="868889892">
 								<reference key="NSNextResponder" ref="741025376"/>
 								<int key="NSvFlags">274</int>
-								<string key="NSFrameSize">{1024, 670}</string>
+								<string key="NSFrameSize">{1024, 979}</string>
 								<reference key="NSSuperview" ref="741025376"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="657131570"/>
@@ -491,6 +517,14 @@
 					<int key="connectionID">462</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">highlightButton</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="448178839"/>
+					</object>
+					<int key="connectionID">482</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">executeJavascriptAction:</string>
 						<reference key="source" ref="667928909"/>
@@ -593,6 +627,15 @@
 					</object>
 					<int key="connectionID">472</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">buttonPressed:</string>
+						<reference key="source" ref="448178839"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">483</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -677,6 +720,7 @@
 							<reference ref="554939018"/>
 							<reference ref="165190460"/>
 							<reference ref="1048541200"/>
+							<reference ref="448178839"/>
 						</array>
 						<reference key="parent" ref="226409711"/>
 						<string key="objectName">Footer View</string>
@@ -733,6 +777,11 @@
 						<reference key="parent" ref="326295810"/>
 						<string key="objectName">Button - Survey</string>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">478</int>
+						<reference key="object" ref="448178839"/>
+						<reference key="parent" ref="326295810"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -766,12 +815,13 @@
 				<real value="0.0" key="468.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="471.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="0.0" key="471.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<string key="478.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">477</int>
+			<int key="maxID">483</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1040,8 +1090,9 @@
 			<string key="SymbicortInquiryButton.png">{59, 37}</string>
 			<string key="SymbicortNavigationButton.png">{81, 38}</string>
 			<string key="SymbicortPIButton.png">{37, 37}</string>
+			<string key="SymbicortPenButton.png">{37, 37}</string>
 			<string key="SymbicortRebackButton.png">{47, 37}</string>
-			<string key="SymbicortShadowBackground.png">{962, 38}</string>
+			<string key="SymbicortShadowBackground.png">{962, 39}</string>
 			<string key="label.png">{87, 86}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>

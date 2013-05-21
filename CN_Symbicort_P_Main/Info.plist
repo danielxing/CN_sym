@@ -30,7 +30,6 @@
 		<string>Production</string>
 		<key>Dependencies</key>
 		<array>
-			<string>CN_Symbicort_N_Demo_Navigation</string>
 			<string>CN_Symbicort_N_Demo_Menu</string>
 			<string>CN_Symbicort_D_Video4</string>
 			<string>CN_Symbicort_D_Video3</string>

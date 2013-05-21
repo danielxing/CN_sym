@@ -27,7 +27,7 @@
 	<key>ActiveCall</key>
 	<array>
 		<string>主页</string>
-		<string>患者特征::选择画面</string>
+		<string>患者特征::就医患者</string>
 		<string>2吸起始更好疗效::方案选择</string>
 		<string>2吸使用时间::GIMA建议</string>
 		<string>信必可有效达到OAC::哮喘总体控制目标</string>
@@ -52,7 +52,7 @@
 			<array>
 				<dict>
 					<key>Title</key>
-					<string>选择画面</string>
+					<string>就医患者</string>
 					<key>URL</key>
 					<string>CN_Symbicort_S_Page1.1/index.html</string>
 					<key>Landscape Preview</key>
@@ -60,7 +60,7 @@
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>中重度患者</string>
+					<string>就医患者特征</string>
 					<key>URL</key>
 					<string>CN_Symbicort_S_Page1.2/index.html</string>
 					<key>Landscape Preview</key>
