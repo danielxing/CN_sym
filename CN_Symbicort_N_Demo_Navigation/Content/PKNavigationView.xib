@@ -181,7 +181,7 @@
 										<string key="NSFrame">{{69, 24}, {81, 38}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="448178839"/>
+										<reference key="NSNextKeyView" ref="165190460"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
 											<string key="IBUIAccessibilityLabel">Menu</string>
@@ -271,7 +271,7 @@
 										<string key="NSFrame">{{849, 24}, {59, 37}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="791847223"/>
+										<reference key="NSNextKeyView" ref="448178839"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<int key="IBUIContentMode">1</int>
 										<int key="IBUITag">12</int>
@@ -328,7 +328,7 @@
 										<string key="NSFrame">{{908, 24}, {37, 37}}</string>
 										<reference key="NSSuperview" ref="326295810"/>
 										<reference key="NSWindow"/>
-										<reference key="NSNextKeyView" ref="165190460"/>
+										<reference key="NSNextKeyView" ref="791847223"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
 										<bool key="IBUIOpaque">NO</bool>
 										<string key="targetRuntimeIdentifier">IBIPadFramework</string>

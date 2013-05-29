@@ -10,3 +10,5 @@
 //alert(document.URL);
 
 SystemBridge.launchPDFViewer('package://CN_Symbicort_D_Video1/SymbicortPI.pdf', "Symbicort PI");
+
+//SystemBridge.launchPDFViewer('package://CN_Symbicort_D_Video1/test.pdf', "Symbicort PI");

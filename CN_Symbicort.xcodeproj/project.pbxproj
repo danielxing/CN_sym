@@ -20,6 +20,7 @@
 		18310DFC1714047E00AE3092 /* SYM Pharmacology Synergy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18310DFB1714047E00AE3092 /* SYM Pharmacology Synergy.mp4 */; };
 		18310DFE1714048F00AE3092 /* SYM Pharmacology Formoterol.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18310DFD1714048F00AE3092 /* SYM Pharmacology Formoterol.mp4 */; };
 		18310E001714049B00AE3092 /* SYM Turbuhaler Adults.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18310DFF1714049B00AE3092 /* SYM Turbuhaler Adults.mp4 */; };
+		1836CD8D174CAF60009BBB0E /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1836CD8C174CAF60009BBB0E /* test.pdf */; };
 		1894EE281728FBD200323BB9 /* label.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894EE271728FBC300323BB9 /* label.png */; };
 		18969B96173368E30083DD27 /* SYM Pharmacology Budesonide.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18969B95173368E30083DD27 /* SYM Pharmacology Budesonide.mov */; };
 		189BE9CB17280B9E0021CEC8 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */; };
@@ -200,6 +201,7 @@
 		18310DFB1714047E00AE3092 /* SYM Pharmacology Synergy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SYM Pharmacology Synergy.mp4"; path = "CN_Symbicort_D_Video2/SYM Pharmacology Synergy.mp4"; sourceTree = SOURCE_ROOT; };
 		18310DFD1714048F00AE3092 /* SYM Pharmacology Formoterol.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SYM Pharmacology Formoterol.mp4"; path = "CN_Symbicort_D_Video3/SYM Pharmacology Formoterol.mp4"; sourceTree = SOURCE_ROOT; };
 		18310DFF1714049B00AE3092 /* SYM Turbuhaler Adults.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SYM Turbuhaler Adults.mp4"; path = "CN_Symbicort_D_Video4/SYM Turbuhaler Adults.mp4"; sourceTree = SOURCE_ROOT; };
+		1836CD8C174CAF60009BBB0E /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = test.pdf; path = CN_Symbicort_D_Video1/test.pdf; sourceTree = SOURCE_ROOT; };
 		1894EE271728FBC300323BB9 /* label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = label.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/label.png; sourceTree = SOURCE_ROOT; };
 		18969B95173368E30083DD27 /* SYM Pharmacology Budesonide.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "SYM Pharmacology Budesonide.mov"; path = "CN_Symbicort_D_Video1/SYM Pharmacology Budesonide.mov"; sourceTree = SOURCE_ROOT; };
 		18BE42DE173A295C001F308B /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Presentation; path = CN_Symbicort_P_Main/Presentation; sourceTree = SOURCE_ROOT; };
@@ -363,6 +365,7 @@
 		180E28A117129F8200730F7E /* CN_Symbicort_D_Video1 */ = {
 			isa = PBXGroup;
 			children = (
+				1836CD8C174CAF60009BBB0E /* test.pdf */,
 				18C08AEE17375A8900DEA45E /* SymbicortPI.pdf */,
 				18969B95173368E30083DD27 /* SYM Pharmacology Budesonide.mov */,
 				180E28D91712A3C300730F7E /* Info.plist */,
@@ -780,6 +783,7 @@
 			files = (
 				18969B96173368E30083DD27 /* SYM Pharmacology Budesonide.mov in Resources */,
 				18C08AEF17375A8900DEA45E /* SymbicortPI.pdf in Resources */,
+				1836CD8D174CAF60009BBB0E /* test.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
