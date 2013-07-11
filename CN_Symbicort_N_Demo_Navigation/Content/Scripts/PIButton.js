@@ -7,7 +7,7 @@
 //
 //SystemBridge.requestCurrentSlideInfo("goto");
 
-//alert(document.URL);
+alert(document.URL);
 
 SystemBridge.launchPDFViewer('package://CN_Symbicort_D_Video1/SymbicortPI.pdf', "Symbicort PI");
 

@@ -21,6 +21,14 @@
 		18310DFE1714048F00AE3092 /* SYM Pharmacology Formoterol.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18310DFD1714048F00AE3092 /* SYM Pharmacology Formoterol.mp4 */; };
 		18310E001714049B00AE3092 /* SYM Turbuhaler Adults.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18310DFF1714049B00AE3092 /* SYM Turbuhaler Adults.mp4 */; };
 		1836CD8D174CAF60009BBB0E /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1836CD8C174CAF60009BBB0E /* test.pdf */; };
+		186AC12C17796E820034FF5A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 186AC12417796E820034FF5A /* Icon-72.png */; };
+		186AC12D17796E820034FF5A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186AC12517796E820034FF5A /* Icon-72@2x.png */; };
+		186AC12E17796E820034FF5A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 186AC12617796E820034FF5A /* Icon-Small-50.png */; };
+		186AC12F17796E820034FF5A /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186AC12717796E820034FF5A /* Icon-Small-50@2x.png */; };
+		186AC13017796E820034FF5A /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 186AC12817796E820034FF5A /* Icon-Small.png */; };
+		186AC13117796E820034FF5A /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186AC12917796E820034FF5A /* Icon-Small@2x.png */; };
+		186AC13217796E820034FF5A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 186AC12A17796E820034FF5A /* Icon.png */; };
+		186AC13317796E820034FF5A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186AC12B17796E820034FF5A /* Icon@2x.png */; };
 		1894EE281728FBD200323BB9 /* label.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894EE271728FBC300323BB9 /* label.png */; };
 		18969B96173368E30083DD27 /* SYM Pharmacology Budesonide.mov in Resources */ = {isa = PBXBuildFile; fileRef = 18969B95173368E30083DD27 /* SYM Pharmacology Budesonide.mov */; };
 		189BE9CB17280B9E0021CEC8 /* CN_Symbicort_N_Demo_Navigation.bundle in Copy Files */ = {isa = PBXBuildFile; fileRef = 18FDF34F172512D000B6CB62 /* CN_Symbicort_N_Demo_Navigation.bundle */; };
@@ -202,6 +210,14 @@
 		18310DFD1714048F00AE3092 /* SYM Pharmacology Formoterol.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SYM Pharmacology Formoterol.mp4"; path = "CN_Symbicort_D_Video3/SYM Pharmacology Formoterol.mp4"; sourceTree = SOURCE_ROOT; };
 		18310DFF1714049B00AE3092 /* SYM Turbuhaler Adults.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SYM Turbuhaler Adults.mp4"; path = "CN_Symbicort_D_Video4/SYM Turbuhaler Adults.mp4"; sourceTree = SOURCE_ROOT; };
 		1836CD8C174CAF60009BBB0E /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = test.pdf; path = CN_Symbicort_D_Video1/test.pdf; sourceTree = SOURCE_ROOT; };
+		186AC12417796E820034FF5A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		186AC12517796E820034FF5A /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		186AC12617796E820034FF5A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = SOURCE_ROOT; };
+		186AC12717796E820034FF5A /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = SOURCE_ROOT; };
+		186AC12817796E820034FF5A /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = SOURCE_ROOT; };
+		186AC12917796E820034FF5A /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = SOURCE_ROOT; };
+		186AC12A17796E820034FF5A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		186AC12B17796E820034FF5A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		1894EE271728FBC300323BB9 /* label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = label.png; path = CN_Symbicort_N_Demo_Navigation/Content/images/label.png; sourceTree = SOURCE_ROOT; };
 		18969B95173368E30083DD27 /* SYM Pharmacology Budesonide.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "SYM Pharmacology Budesonide.mov"; path = "CN_Symbicort_D_Video1/SYM Pharmacology Budesonide.mov"; sourceTree = SOURCE_ROOT; };
 		18BE42DE173A295C001F308B /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Presentation; path = CN_Symbicort_P_Main/Presentation; sourceTree = SOURCE_ROOT; };
@@ -590,6 +606,14 @@
 		F941AB911678ED25008A6A7F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				186AC12417796E820034FF5A /* Icon-72.png */,
+				186AC12517796E820034FF5A /* Icon-72@2x.png */,
+				186AC12617796E820034FF5A /* Icon-Small-50.png */,
+				186AC12717796E820034FF5A /* Icon-Small-50@2x.png */,
+				186AC12817796E820034FF5A /* Icon-Small.png */,
+				186AC12917796E820034FF5A /* Icon-Small@2x.png */,
+				186AC12A17796E820034FF5A /* Icon.png */,
+				186AC12B17796E820034FF5A /* Icon@2x.png */,
 				F941AB921678ED25008A6A7F /* CN_Symbicort-Info.plist */,
 				F941AB931678ED25008A6A7F /* InfoPlist.strings */,
 				F941AB961678ED25008A6A7F /* main.m */,
@@ -944,6 +968,14 @@
 				F97A0F9416BC0D9E00A3ED37 /* PresentationKit.bundle in Resources */,
 				180E2B6C1712B16B00730F7E /* CN_Symbicort_D_Video1.bundle in Resources */,
 				180E2B6D1712B16E00730F7E /* CN_Symbicort_D_Video2.bundle in Resources */,
+				186AC12C17796E820034FF5A /* Icon-72.png in Resources */,
+				186AC12D17796E820034FF5A /* Icon-72@2x.png in Resources */,
+				186AC12E17796E820034FF5A /* Icon-Small-50.png in Resources */,
+				186AC12F17796E820034FF5A /* Icon-Small-50@2x.png in Resources */,
+				186AC13017796E820034FF5A /* Icon-Small.png in Resources */,
+				186AC13117796E820034FF5A /* Icon-Small@2x.png in Resources */,
+				186AC13217796E820034FF5A /* Icon.png in Resources */,
+				186AC13317796E820034FF5A /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
